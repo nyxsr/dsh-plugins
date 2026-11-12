@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "title": "AI PDF Studio Ultimate",
+    "description": "Bikin, periksa, desain ulang, dan perbaiki PDF profesional dengan desain adaptif, referensi visual, dan tinjauan mutu."
+  },
+  "tools": {
+    "generate_pdf": "Bikin PDF, lengkap dengan desain dan pemeriksaan",
+    "preview_pdf": "Buat pratinjau halaman PDF",
+    "inspect_pdf": "Periksa validitas dan geometri PDF",
+    "edit_pdf": "Sunting struktur dan lapisan PDF",
+    "redesign_pdf": "Rekonstruksi dan desain ulang PDF",
+    "list_templates": "Daftar templat per kategori",
+    "analyze_design_reference": "Analisis referensi desain",
+    "apply_brand_kit": "Terapkan brand kit",
+    "validate_document": "Validasi Document IR",
+    "export_pdf": "Ekspor PDF final"
+  }
+}

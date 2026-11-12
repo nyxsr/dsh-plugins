@@ -1,0 +1,65 @@
+{
+  "template_id": "business-performance-report",
+  "name": "Laporan kinerja bisnis",
+  "version": "1.0.0",
+  "category": "report",
+  "theme": "modern_corporate",
+  "page_size": "A4",
+  "cover_kind": "split",
+  "default_audience": "Pimpinan eksekutif dan tim operasional",
+  "default_purpose": "Sampaikan kinerja, jelaskan selisih, dan sepakati langkah berikutnya",
+  "description": "Tinjauan operasional berbasis data: ringkasan eksekutif, pita KPI, tabel selisih, grafik tren, catatan segmen, dan keputusan.",
+  "structural_signature": "Pita KPI -> kisi analisis -> tabel selisih -> daftar keputusan",
+  "required_blocks": [
+    "kpi",
+    "chart",
+    "table",
+    "callout"
+  ],
+  "recommended_blocks": [
+    "quote",
+    "timeline"
+  ],
+  "section_plan": [
+    {
+      "title": "Ringkasan eksekutif",
+      "purpose": "Sampaikan hasil dan tiga keputusan yang dibutuhkan",
+      "blocks": [
+        "paragraph",
+        "kpi"
+      ]
+    },
+    {
+      "title": "Kinerja",
+      "purpose": "Tunjukkan tren dan jelaskan pemicunya",
+      "blocks": [
+        "chart",
+        "paragraph"
+      ]
+    },
+    {
+      "title": "Selisih",
+      "purpose": "Cocokkan rencana dengan realisasi lewat tabel yang mudah dibaca",
+      "blocks": [
+        "table"
+      ]
+    },
+    {
+      "title": "Catatan segmen",
+      "purpose": "Jelaskan perbedaan tanpa membuat pembaca tenggelam",
+      "blocks": [
+        "paragraph",
+        "kpi"
+      ]
+    },
+    {
+      "title": "Keputusan dan langkah berikutnya",
+      "purpose": "Tutup dengan pemilik tugas dan tanggal",
+      "blocks": [
+        "callout",
+        "timeline"
+      ]
+    }
+  ],
+  "preview": "templates/previews/business-performance-report.png"
+}

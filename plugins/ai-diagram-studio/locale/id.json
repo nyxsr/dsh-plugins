@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "title": "AI Diagram Studio",
+    "description": "Buat dan revisi diagram ERD, flowchart, UML, sequence, dan arsitektur perangkat lunak dari bahasa alami, lalu ekspor SVG, PNG, dan PDF yang sudah diverifikasi."
+  },
+  "tools": {
+    "generate_diagram": "Buat diagram tervalidasi",
+    "revise_diagram": "Revisi diagram yang sudah ada",
+    "validate_diagram": "Validasi model diagram",
+    "export_diagram": "Ekspor atau ekspor ulang artefak",
+    "list_supported_diagrams": "Daftar jenis diagram yang didukung"
+  }
+}

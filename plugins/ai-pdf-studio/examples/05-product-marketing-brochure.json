@@ -1,0 +1,306 @@
+{
+  "document_id": "demo-product-marketing-brochure",
+  "title": "Aurelia No. 07",
+  "subtitle": "Sebuah kajian tentang amber, asap, dan ketekunan yang tenang",
+  "eyebrow": "Maison Aurelia · Edisi privat",
+  "category": "brochure",
+  "language": "id",
+  "audience": "Kolektor parfum modern yang jeli memilih",
+  "purpose": "Memperkenalkan parfum edisi terbatas yang fiktif, menjelaskan kisah pembuatannya, dan mengundang konsultasi privat",
+  "tone": "Tenang, indrawi, meyakinkan",
+  "content_mode": "preserve",
+  "synthetic": true,
+  "page": {
+    "size": "A4"
+  },
+  "theme": {
+    "family": "luxury_elegant"
+  },
+  "brand": {
+    "organization": "Maison Aurelia",
+    "logo_path": "assets/brand/aurelia.svg",
+    "colors": {
+      "primary": "#B08A47",
+      "accent": "#6E1F2B"
+    },
+    "website": "aurelia.example (fiktif)",
+    "contact": "Atelier: 14 Rue des Parfumeurs, Grasse (fiktif)"
+  },
+  "metadata": {
+    "author": "Maison Aurelia (fiktif)",
+    "organization": "Maison Aurelia",
+    "created_at": "2026-11-10T08:00:00Z",
+    "keywords": [
+      "parfum",
+      "brosur",
+      "sintetis"
+    ],
+    "date": "2026-11-10T08:00:00Z"
+  },
+  "cover": {
+    "stats": [
+      {
+        "value": "No. 07",
+        "label": "Edisi terbatas"
+      },
+      {
+        "value": "18%",
+        "label": "Konsentrasi amber"
+      },
+      {
+        "value": "240",
+        "label": "Flakon"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Objeknya",
+      "kicker": "01 · Kehadiran yang tenang",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/illustrations/aurelia-flacon.svg",
+          "alt": "Ilustrasi vektor orisinal flakon Aurelia No. 07: botol kaca amber gelap dengan tutup emas dan label gading.",
+          "caption": "Ilustrasi vektor orisinal yang dibuat untuk demonstrasi sintetis ini.",
+          "variant": "full"
+        },
+        {
+          "type": "paragraph",
+          "text": "Aurelia No. 07 adalah parfum fiktif yang dibangun di sekitar amber, cedar berasap, dan pembukaan jeruk yang tertahan. Flakonnya sengaja terasa berat di tangan: kaca gelap, kerah emas yang disikat halus, dan label tercetak di kertas gading tanpa pelapis.",
+          "lead": true
+        }
+      ]
+    },
+    {
+      "title": "Ritualnya",
+      "kicker": "02 · Cara memakainya",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Objek ini tidak berusaha menarik perhatian dari seberang ruangan. Ia berusaha memberi imbalan pada orang yang mengangkatnya. Semprotkan satu kali ke titik nadi, lalu tunggu. Pembukaannya terang tetapi singkat, bergamot dan lada merah muda yang hanya bertahan beberapa menit. Setelah itu aromanya lebih hangat dan lebih lambat: resin amber, jejak iris, dan asap cedar yang menempel dekat kulit. Parfum ini dirancang untuk ditemukan pada jarak percakapan, bukan diumumkan dari pintu."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "title": "Satu semprotan",
+              "text": "Satu kali di setiap pergelangan sudah cukup. Jangan digosok, karena fase keringnya bagian dari komposisi."
+            },
+            {
+              "title": "Lapisi dengan keheningan",
+              "text": "Hindari losion atau produk rambut beraroma pada satu jam pertama. Pembukaannya butuh ruang untuk selesai."
+            },
+            {
+              "title": "Simpan dengan hati-hati",
+              "text": "Simpan flakon tegak, jauh dari cahaya langsung dan panas. Basis ambernya akan makin dalam seiring waktu."
+            }
+          ],
+          "ordered": false
+        },
+        {
+          "type": "quote",
+          "text": "Parfum seharusnya tidak memenuhi ruangan. Ia seharusnya membuat ruangan terasa berbeda.",
+          "attribution": "Camille Rousseau",
+          "role": "Perfumer fiktif, Maison Aurelia"
+        },
+        {
+          "type": "callout",
+          "title": "Catatan soal bahan",
+          "text": "Brosur ini menggambarkan produk fiktif. Tidak ada parfum, bahan, sertifikasi, atau klaim klinis nyata yang diwakili. Ilustrasinya adalah karya vektor orisinal yang dibuat untuk demonstrasi ini.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "title": "Asal-usul",
+      "kicker": "03 · Proses pembuatannya",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Komposisinya dibangun dalam tiga tahap selama sebelas bulan. Tahap pertama membentuk aksen amber. Tahap kedua menguranginya sampai asapnya bisa duduk di bawah, bukan di atas. Tahap ketiga memasukkan pembukaan jeruk, lalu membuang setengahnya. Sebagian besar pekerjaannya justru pengurangan. Formula akhirnya berisi kurang dari tiga puluh bahan, beberapa hanya dalam jejak yang terlalu kecil untuk ditulis di label."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "date": "Bulan 1",
+              "title": "Studi amber",
+              "text": "Aksen pertama dari labdanum, benzoin, dan isolat cedar kering. Terlalu berat, lalu disisihkan."
+            },
+            {
+              "date": "Bulan 4",
+              "title": "Pengurangan",
+              "text": "Amber dipotong 40% dan cedar diganti fraksi berasap. Strukturnya mulai terlihat."
+            },
+            {
+              "date": "Bulan 8",
+              "title": "Pembukaan",
+              "text": "Bergamot dan lada merah muda ditambahkan, lalu dikurangi jadi sapuan singkat, bukan pernyataan."
+            },
+            {
+              "date": "Bulan 11",
+              "title": "Pendiaman",
+              "text": "Konsentrat didiamkan enam minggu sebelum diencerkan. Flakon pertama diisi dengan tangan."
+            }
+          ],
+          "title": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "Edisionya dibatasi 240 flakon bernomor. Setiap flakon diisi, disegel, dan diberi label dengan tangan di atelier. Nomornya ditulis di dasar botol dengan tinta arsip, bukan dicetak. Detailnya kecil, tetapi detail seperti itulah yang diminta objek ini."
+        }
+      ]
+    },
+    {
+      "title": "Koleksinya",
+      "kicker": "04 · Tiga ekspresi",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Aurelia No. 07 tersedia dalam tiga format. Ketiganya memakai konsentrat yang sama. Bedanya ada di pembawa dan di kesempatan pemakaiannya. Tabel di bawah adalah demonstrasi produk fiktif, bukan daftar harga nyata."
+        },
+        {
+          "type": "table",
+          "title": "Koleksi Aurelia",
+          "columns": [
+            {
+              "key": "format",
+              "label": "Format",
+              "width": 26
+            },
+            {
+              "key": "volume",
+              "label": "Volume",
+              "align": "right",
+              "width": 14
+            },
+            {
+              "key": "character",
+              "label": "Karakter",
+              "width": 36
+            },
+            {
+              "key": "price",
+              "label": "Harga indikatif",
+              "align": "right",
+              "width": 24
+            }
+          ],
+          "rows": [
+            {
+              "format": "Eau de parfum",
+              "volume": "50 ml",
+              "character": "Komposisi utuh",
+              "price": "€ 185"
+            },
+            {
+              "format": "Extrait",
+              "volume": "30 ml",
+              "character": "Amber lebih padat, pembukaan lebih lambat",
+              "price": "€ 240"
+            },
+            {
+              "format": "Set perjalanan",
+              "volume": "3 × 10 ml",
+              "character": "Tiga decant terpisah",
+              "price": "€ 120"
+            }
+          ],
+          "caption": "Produk dan harga fiktif. Bukan penawaran untuk dijual."
+        },
+        {
+          "type": "paragraph",
+          "text": "Extrait bukan sekadar versi yang lebih kuat. Pada konsentrasi lebih tinggi, pembukaan jeruknya memendek dan asap cedar lebih terlihat. Ia tafsir lain atas komposisi yang sama, lebih dekat ke basis dan kurang peduli pada kesan pertama."
+        }
+      ]
+    },
+    {
+      "title": "Undangannya",
+      "kicker": "05 · Konsultasi privat",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Aurelia No. 07 tersedia lewat janji temu privat. Konsultasinya tiga puluh menit, bisa langsung atau lewat video, dan dimulai dengan percakapan singkat tentang parfum yang sudah Anda pakai. Tidak ada kewajiban membeli. Tujuannya memutuskan apakah parfum ini pantas masuk koleksi Anda, bukan menyelesaikan transaksi."
+        },
+        {
+          "type": "table",
+          "title": "Kontak atelier",
+          "columns": [
+            {
+              "key": "channel",
+              "label": "Kanal",
+              "width": 28
+            },
+            {
+              "key": "detail",
+              "label": "Detail",
+              "width": 52
+            },
+            {
+              "key": "hours",
+              "label": "Ketersediaan",
+              "width": 20
+            }
+          ],
+          "rows": [
+            {
+              "channel": "Janji temu privat",
+              "detail": "atelier@aurelia.example (fiktif)",
+              "hours": "Senin-Jumat"
+            },
+            {
+              "channel": "Atelier",
+              "detail": "14 Rue des Parfumeurs, Grasse (fiktif)",
+              "hours": "Dengan janji"
+            },
+            {
+              "channel": "Concierge",
+              "detail": "+33 000 000 000 (fiktif)",
+              "hours": "10.00-18.00 CET"
+            }
+          ],
+          "caption": "Detail kontak fiktif, hanya untuk demonstrasi."
+        },
+        {
+          "type": "callout",
+          "title": "Pesan konsultasi",
+          "text": "Tulis ke atelier dengan waktu yang Anda inginkan dan satu kalimat tentang parfum yang sedang Anda pakai. Kami akan membalas dengan konfirmasi dan catatan persiapan singkat. Ini demonstrasi fiktif dan detail kontaknya tidak mengarah ke bisnis nyata.",
+          "tone": "accent"
+        }
+      ]
+    },
+    {
+      "title": "Bahan dan perawatan",
+      "kicker": "06 · Merawat objeknya",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Flakonnya terbuat dari kaca amber tebal dengan kerah kuningan dan dasar yang diberi pemberat. Labelnya kertas katun tanpa pelapis, dipilih karena menyerap tinta tidak rata sehingga merekam tangan yang menulis nomor edisi. Kotak luarnya slipcase kaku berlapis tenun linen gelap."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "title": "Cahaya",
+              "text": "Simpan flakon di dalam slipcase saat tidak dipakai. Kaca amber memperlambat paparan cahaya, tetapi tidak menghentikannya."
+            },
+            {
+              "title": "Suhu",
+              "text": "Simpan di bawah 25°C, jauh dari radiator, jendela, dan uap kamar mandi."
+            },
+            {
+              "title": "Penanganan",
+              "text": "Pegang badan kacanya, bukan kerahnya. Kuningan akan menua dan berubah warna. Itu memang disengaja."
+            }
+          ],
+          "ordered": false
+        },
+        {
+          "type": "paragraph",
+          "text": "Parfum ini komposisi fiktif yang dibuat untuk demonstrasi ini. Kemiripan dengan produk yang sudah ada tidak disengaja. Ilustrasi dan mereknya aset vektor orisinal yang dilisensikan untuk proyek ini."
+        }
+      ]
+    }
+  ]
+}

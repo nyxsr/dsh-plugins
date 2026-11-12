@@ -1,0 +1,147 @@
+[
+  {
+    "id": "erd-library",
+    "label": "Library ERD from an Indonesian requirement",
+    "request": {
+      "requirement": "Buatkan ERD untuk sistem manajemen perpustakaan yang memiliki anggota, buku, peminjaman, pengembalian, dan denda. Buat relasinya secara benar, tampilkan PK dan FK.",
+      "diagram_type": "erd",
+      "language": "id",
+      "title": "Library ERD"
+    }
+  },
+  {
+    "id": "flow-approval",
+    "label": "Leave approval flowchart with a rejection branch",
+    "request": {
+      "requirement": "Buat flowchart approval pengajuan cuti: mulai, ajukan cuti, periksa berkas, jika lengkap setujui, jika tidak tolak, selesai.",
+      "diagram_type": "flowchart",
+      "language": "id",
+      "title": "Leave Approval"
+    }
+  },
+  {
+    "id": "uml-class",
+    "label": "UML class diagram with inheritance, realization, and composition",
+    "request": {
+      "requirement": "Class diagram: abstract class User { id: UUID; name: String; login(): Boolean } class Customer extends User { email: String } class Order { id: UUID; total: Decimal; pay(): Boolean } class OrderItem { quantity: Integer } interface Payable { pay(): Boolean } Customer ..|> Payable. Order *-- \"1..*\" OrderItem.",
+      "diagram_type": "uml_class",
+      "title": "Domain Class Model"
+    }
+  },
+  {
+    "id": "uml-usecase",
+    "label": "UML use-case diagram with two actors",
+    "request": {
+      "requirement": "Use case diagram perpustakaan: aktor Anggota, Pustakawan. use case Pinjam Buku, Kembalikan Buku, Kelola Buku. Anggota melakukan Pinjam Buku dan Kembalikan Buku. Pustakawan melakukan Kelola Buku. Pinjam Buku include Verifikasi Anggota.",
+      "diagram_type": "uml_usecase",
+      "language": "id",
+      "title": "Library Use Cases"
+    }
+  },
+  {
+    "id": "uml-activity",
+    "label": "UML activity diagram with decision branches",
+    "request": {
+      "requirement": "Activity diagram pengajuan: start -> isi formulir -> periksa berkas -> {Lengkap?}; {Lengkap?} -> ya: setujui; {Lengkap?} -> tidak: tolak; setujui -> final; tolak -> final.",
+      "diagram_type": "uml_activity",
+      "language": "id",
+      "title": "Submission Activity"
+    }
+  },
+  {
+    "id": "uml-state",
+    "label": "UML state machine with guards and actions",
+    "request": {
+      "requirement": "State machine Order: [*] -> Draft. Draft -> Submitted [submit]. Submitted -> Approved [approve] / sendEmail. Submitted -> Rejected [reject]. Approved -> [*]. Rejected -> [*].",
+      "diagram_type": "uml_state",
+      "title": "Order State Machine"
+    }
+  },
+  {
+    "id": "sequence-checkout",
+    "label": "Sequence diagram with an alt frame",
+    "request": {
+      "title": "Checkout Sequence",
+      "structured_specification": {
+        "diagram_type": "sequence",
+        "title": "Checkout Sequence",
+        "participants": [
+          {
+            "name": "User",
+            "kind": "actor"
+          },
+          {
+            "name": "Web"
+          },
+          {
+            "name": "API"
+          },
+          {
+            "name": "DB",
+            "kind": "database"
+          }
+        ],
+        "messages": [
+          {
+            "from": "User",
+            "to": "Web",
+            "text": "buka checkout"
+          },
+          {
+            "from": "Web",
+            "to": "API",
+            "text": "POST /orders"
+          },
+          {
+            "from": "API",
+            "to": "DB",
+            "text": "insert order"
+          },
+          {
+            "from": "DB",
+            "to": "API",
+            "text": "order id",
+            "kind": "return"
+          },
+          {
+            "from": "API",
+            "to": "Web",
+            "text": "201 created",
+            "kind": "return"
+          },
+          {
+            "from": "Web",
+            "to": "User",
+            "text": "tampilkan hasil",
+            "kind": "return"
+          }
+        ],
+        "frames": [
+          {
+            "kind": "alt",
+            "label": "pembayaran gagal / else berhasil",
+            "message_ids": [
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      },
+      "output_formats": [
+        "svg",
+        "png",
+        "pdf"
+      ]
+    }
+  },
+  {
+    "id": "architecture-groups",
+    "label": "Grouped software architecture diagram",
+    "request": {
+      "requirement": "Arsitektur e-commerce: group Frontend: Client; group Backend: API Gateway, Order Service, Email Worker; group Data: PostgreSQL, RabbitMQ. Client memanggil API Gateway: HTTPS. Order Service membaca PostgreSQL: SQL. Order Service publishes RabbitMQ: AMQP. RabbitMQ -> Email Worker: consume.",
+      "diagram_type": "architecture",
+      "title": "Ecommerce Architecture"
+    }
+  }
+]

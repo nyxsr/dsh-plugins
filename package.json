@@ -1,0 +1,32 @@
+{
+  "name": "dsh-profile-web",
+  "private": true,
+  "dependencies": {
+    "@local/ai-diagram-studio": "link:./plugins/ai-diagram-studio",
+    "@local/ai-pdf-studio":     "link:./plugins/ai-pdf-studio",
+    "@local/storage-insights":  "link:./plugins/storage-insights",
+    "billion-context": "^0.1.213",
+    "dsh-better-sidebar": "0.30.1",
+    "dsh-ops": "0.5.2",
+    "dsh-plugin": "^2.3.6",
+    "dsh-plugin-wallpaper-engine": "1.4.2",
+    "playwright-browser": "github:whklwhkl/dsh-playwright"
+  },
+  "dsh": {
+    "profile": {
+      "bundles": [
+        "@deepseek-ai/dsh-base",
+        "@deepseek-ai/dsh-web-app",
+        "@local/storage-insights",
+        "dsh-plugin",
+        "billion-context",
+        "dsh-better-sidebar",
+        "dsh-plugin-wallpaper-engine",
+        "@local/ai-pdf-studio",
+        "dsh-ops",
+        "playwright-browser",
+        "@local/ai-diagram-studio"
+      ]
+    }
+  }
+}

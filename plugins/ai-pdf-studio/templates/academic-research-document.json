@@ -1,0 +1,75 @@
+{
+  "template_id": "academic-research-document",
+  "name": "Dokumen riset akademik",
+  "version": "1.0.0",
+  "category": "academic",
+  "theme": "academic_professional",
+  "page_size": "A4",
+  "cover_kind": "academic",
+  "default_audience": "Peneliti sejawat dan komite peninjau",
+  "default_purpose": "Laporkan metode dan bukti dengan cukup rinci agar bisa dinilai dan diulang",
+  "description": "Makalah riset formal berisi abstrak, kata kunci, metode bernomor, persamaan, tabel hasil, gambar, pembahasan, keterbatasan, dan daftar referensi.",
+  "structural_signature": "Abstrak -> metode -> hasil -> pembahasan -> keterbatasan -> referensi",
+  "required_blocks": [
+    "heading",
+    "paragraph",
+    "table",
+    "chart",
+    "citation"
+  ],
+  "recommended_blocks": [
+    "equation",
+    "callout",
+    "footnote"
+  ],
+  "section_plan": [
+    {
+      "title": "Abstrak",
+      "purpose": "Nyatakan pertanyaan, metode, hasil, dan implikasinya",
+      "blocks": [
+        "paragraph",
+        "list"
+      ]
+    },
+    {
+      "title": "1. Pendahuluan",
+      "purpose": "Rumuskan celah riset",
+      "blocks": [
+        "paragraph"
+      ]
+    },
+    {
+      "title": "2. Metode",
+      "purpose": "Jelaskan partisipan, bahan, dan analisis",
+      "blocks": [
+        "heading",
+        "paragraph",
+        "equation"
+      ]
+    },
+    {
+      "title": "3. Hasil",
+      "purpose": "Laporkan hasil terukur beserta ketidakpastiannya",
+      "blocks": [
+        "table",
+        "chart"
+      ]
+    },
+    {
+      "title": "4. Pembahasan",
+      "purpose": "Tafsirkan tanpa klaim berlebihan",
+      "blocks": [
+        "paragraph",
+        "callout"
+      ]
+    },
+    {
+      "title": "Referensi",
+      "purpose": "Pertahankan sitasi",
+      "blocks": [
+        "citation"
+      ]
+    }
+  ],
+  "preview": "templates/previews/academic-research-document.png"
+}

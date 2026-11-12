@@ -1,0 +1,518 @@
+{
+  "document_id": "demo-academic-research-document",
+  "title": "Jarak, Bukan Kebaruan: Studi Terkendali tentang Waktu Tinjauan pada Pembelajaran Mikro",
+  "subtitle": "Demonstrasi riset sintetis untuk AI PDF Studio Ultimate",
+  "eyebrow": "Makalah riset · Demonstrasi",
+  "category": "academic",
+  "language": "id",
+  "audience": "Peneliti ilmu pembelajaran dan komite penelaahan",
+  "purpose": "Menunjukkan struktur dokumen akademik yang lengkap tanpa membuat klaim empiris nyata",
+  "tone": "Formal, hati-hati, tepat",
+  "content_mode": "preserve",
+  "synthetic": true,
+  "page": {
+    "size": "A4"
+  },
+  "theme": {
+    "family": "academic_professional"
+  },
+  "brand": {
+    "organization": "Institute for Applied Cognition",
+    "logo_path": "assets/brand/iac.svg",
+    "colors": {
+      "primary": "#6B1D2A",
+      "accent": "#2B4A6F"
+    },
+    "website": "iac.example (fiktif)"
+  },
+  "metadata": {
+    "author": "A. Rahman, M. Putri, dan J. Ellis (penulis fiktif)",
+    "organization": "Institute for Applied Cognition",
+    "created_at": "2026-11-10T08:00:00Z",
+    "keywords": [
+      "jarak tinjauan",
+      "pembelajaran mikro",
+      "riset sintetis"
+    ],
+    "date": "2026-11-10T08:00:00Z"
+  },
+  "cover": {
+    "stats": [
+      {
+        "value": "N = 120",
+        "label": "Peserta sintetis"
+      },
+      {
+        "value": "3",
+        "label": "Jadwal tinjauan"
+      },
+      {
+        "value": "0.41",
+        "label": "Ukuran efek sintetis"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Abstrak",
+      "kicker": "Ringkasan",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Makalah ini mendemonstrasikan alur dokumen akademik AI PDF Studio Ultimate. Isinya melaporkan eksperimen yang sepenuhnya sintetis, membandingkan tiga jadwal tinjauan dalam satu modul pembelajaran mikro yang singkat. Temuannya dihasilkan untuk pengujian tata letak dan jaminan mutu. Temuan itu bukan bukti tentang cara manusia belajar. Strukturnya mengikuti pola makalah biasa, yaitu pendahuluan, metode, hasil, pembahasan, keterbatasan, referensi, dan lampiran, supaya tipografi, tabel, persamaan, sitasi, dan geometri halaman bisa dinilai pada isi yang realistis.",
+          "lead": true
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "title": "Pertanyaan",
+              "text": "Apakah pengaturan waktu tinjauan yang tersebar memperbaiki ingatan tertunda dibandingkan tinjauan yang dikumpulkan dalam satu blok, pada tugas pembelajaran mikro sintetis?"
+            },
+            {
+              "title": "Metode",
+              "text": "Rancangan simulasi tiga kelompok dengan 40 peserta per kelompok dan tes tertunda pada hari ke-14."
+            },
+            {
+              "title": "Hasil",
+              "text": "Dalam simulasi, kelompok berjarak memperoleh skor ingatan rata-rata lebih tinggi daripada kelompok terkumpul, dengan ketidakpastian yang saling tumpang tindih."
+            },
+            {
+              "title": "Implikasi",
+              "text": "Pola sintetis ini sejalan dengan literatur yang lebih luas, tetapi hanya ilustratif dan tidak boleh dikutip sebagai temuan."
+            }
+          ],
+          "ordered": false
+        },
+        {
+          "type": "paragraph",
+          "text": "Kata kunci: efek jarak, pembelajaran mikro, latihan mengingat, rekayasa dokumen, data sintetis"
+        },
+        {
+          "type": "callout",
+          "title": "Pernyataan data sintetis",
+          "text": "Seluruh catatan peserta, skor, dan ukuran efek di makalah ini dihasilkan. Referensinya sumber nyata yang disertakan untuk menunjukkan penyajian sitasi dan tautan yang bisa diklik. Dokumen ini tidak boleh disajikan sebagai uji coba nyata.",
+          "tone": "warning"
+        }
+      ]
+    },
+    {
+      "title": "1. Pendahuluan",
+      "kicker": "Konteks riset",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pelajaran digital pendek sekarang jadi format yang umum untuk belajar profesional. Singkatnya menguntungkan dari sisi akses, tetapi berisiko untuk daya ingat. Peserta bisa menyelesaikan modul dalam beberapa menit dan tetap kehilangan sebagian besar isinya dalam beberapa hari. Efek jarak, yaitu keunggulan menyebar waktu belajar ke beberapa kesempatan alih-alih menumpuknya di satu waktu, termasuk temuan yang cukup kokoh di ilmu pembelajaran (Cepeda dkk., 2006). Pertanyaan praktis bagi perancang pembelajaran mikro bukan apakah jarak bekerja secara prinsip, melainkan bagaimana waktu tinjauan diatur ketika total waktu belajar tetap dan pendek."
+        },
+        {
+          "type": "paragraph",
+          "text": "Literatur kedua soal mengingat kembali. Menguji ingatan peserta, bukan sekadar menampilkan ulang materinya, cenderung memperbaiki retensi jangka panjang (Roediger & Karpicke, 2006). Dalam konteks pembelajaran mikro, latihan mengingat bisa ditambahkan dengan biaya rendah: satu pertanyaan singkat di awal sesi tinjauan, tugas menyusun ulang tanpa membuka catatan, atau satu dorongan penerapan singkat. Pertanyaan desainnya adalah bagaimana momen mengingat itu berinteraksi dengan jarak. Tinjauan yang terlalu awal bisa terasa lancar dan tidak informatif. Tinjauan yang terlalu lambat bisa menghasilkan kegagalan tanpa pembelajaran."
+        },
+        {
+          "type": "paragraph",
+          "text": "Makalah ini memakai eksperimen sintetis untuk menjalankan alur kerja dokumen riset secara utuh. Klaim substantifnya sengaja dibuat sederhana: simulasinya disusun agar menghasilkan pola yang masuk akal, bukan untuk menyelesaikan pertanyaan ilmiah. Karena itu, kontribusi dokumen ini bersifat metodologis dan editorial. Dokumen ini menunjukkan bagaimana studi dengan tiga kelompok, hasil tertunda, satu persamaan, tabel hasil, dua gambar, dan daftar referensi bisa disajikan dengan sistem visual akademik yang konsisten."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sisa makalah disusun begini. Bagian 2 menjelaskan rancangan dan analisis simulasi. Bagian 3 melaporkan hasil sintetis. Bagian 4 membahas polanya dan batasnya. Bagian 5 menyatakan keterbatasannya secara terbuka. Referensi dan lampiran menyusul."
+        }
+      ]
+    },
+    {
+      "title": "2. Metode",
+      "kicker": "Rancangan dan analisis",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Studi simulasi ini memakai rancangan antarkelompok dengan tiga kelompok. Setiap kelompok menerima modul pembelajaran mikro 30 menit yang sama tentang topik operasi fiktif, lalu satu jadwal tinjauan: terkumpul (satu tinjauan 15 menit tepat setelah modul), berjarak awal (tiga tinjauan 5 menit pada hari 1, 3, dan 7), atau berjarak akhir (tiga tinjauan 5 menit pada hari 3, 7, dan 12). Hasil utamanya tes ingatan 20 butir pada hari ke-14. Skor dinyatakan sebagai proporsi jawaban benar."
+        },
+        {
+          "type": "equation",
+          "plain": "Adjusted recall = (correct − 0.25 × errors) / 20",
+          "caption": "Aturan penilaian sintetis yang dipakai dalam simulasi. Penalti ini menekan inflasi tebakan, tetapi bukan model psikometrik yang sudah divalidasi."
+        },
+        {
+          "type": "table",
+          "title": "Alokasi peserta simulasi",
+          "columns": [
+            {
+              "key": "arm",
+              "label": "Kelompok",
+              "width": 26
+            },
+            {
+              "key": "n",
+              "label": "n",
+              "align": "right",
+              "width": 10
+            },
+            {
+              "key": "review",
+              "label": "Jadwal tinjauan",
+              "width": 34
+            },
+            {
+              "key": "duration",
+              "label": "Total tinjauan",
+              "align": "right",
+              "width": 14
+            }
+          ],
+          "rows": [
+            {
+              "arm": "Terkumpul",
+              "n": "40",
+              "review": "Satu blok, hari 0",
+              "duration": "15 menit"
+            },
+            {
+              "arm": "Berjarak awal",
+              "n": "40",
+              "review": "Hari 1, 3, 7",
+              "duration": "15 menit"
+            },
+            {
+              "arm": "Berjarak akhir",
+              "n": "40",
+              "review": "Hari 3, 7, 12",
+              "duration": "15 menit"
+            }
+          ],
+          "caption": "Alokasi sintetis. Tidak ada peserta nyata yang terlibat."
+        },
+        {
+          "type": "paragraph",
+          "text": "Analisisnya memakai model linear dengan kelompok sebagai faktor tetap dan skor kuis modul awal sebagai kovariat. Simulasinya dikalibrasi agar kovariat dasar menjelaskan porsi varians yang besar, karena pola itu realistis dalam studi pembelajaran terapan. Ketidakpastiannya digambarkan dengan interval 95% dari varians residu simulasi. Tidak ada uji signifikansi yang ditafsirkan sebagai bukti karena datanya sintetis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Materinya sengaja dibuat sederhana secara visual dan verbal agar jadwal tinjauan, bukan tingkat kesulitan isi, yang mendominasi perbedaan dalam simulasi. Ini pilihan desain di dalam generator, bukan sifat populasi nyata. Kehati-hatian yang sama berlaku untuk ukuran efek dan arah analisis sekunder."
+        }
+      ]
+    },
+    {
+      "title": "3. Hasil",
+      "kicker": "Temuan sintetis",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tabel 2 melaporkan rata-rata ingatan terkoreksi yang disimulasikan per kelompok. Kelompok berjarak awal menghasilkan rata-rata tertinggi, disusul berjarak akhir dan terkumpul. Intervalnya saling tumpang tindih, terutama antara dua kelompok berjarak. Tumpang tindih itu disengaja: dokumen ini dibuat untuk menguji bagaimana ketidakpastian ditampilkan, bukan untuk mengklaim urutan yang pasti."
+        },
+        {
+          "type": "table",
+          "title": "Ingatan terkoreksi simulasi menurut jadwal tinjauan",
+          "columns": [
+            {
+              "key": "arm",
+              "label": "Kelompok",
+              "width": 26
+            },
+            {
+              "key": "mean",
+              "label": "Rata-rata",
+              "align": "right",
+              "width": 12
+            },
+            {
+              "key": "sd",
+              "label": "SD",
+              "align": "right",
+              "width": 10
+            },
+            {
+              "key": "ci",
+              "label": "Interval 95%",
+              "align": "right",
+              "width": 22
+            },
+            {
+              "key": "n",
+              "label": "n",
+              "align": "right",
+              "width": 10
+            }
+          ],
+          "rows": [
+            {
+              "arm": "Terkumpul",
+              "mean": "0.54",
+              "sd": "0.17",
+              "ci": "0.48-0.60",
+              "n": "40"
+            },
+            {
+              "arm": "Berjarak awal",
+              "mean": "0.71",
+              "sd": "0.15",
+              "ci": "0.66-0.76",
+              "n": "40"
+            },
+            {
+              "arm": "Berjarak akhir",
+              "mean": "0.66",
+              "sd": "0.16",
+              "ci": "0.61-0.71",
+              "n": "40"
+            }
+          ],
+          "caption": "Data sintetis. Intervalnya ilustratif dan tidak boleh ditafsirkan sebagai ketidakpastian empiris."
+        },
+        {
+          "type": "chart",
+          "chart_type": "bar",
+          "title": "Rata-rata ingatan terkoreksi per kelompok",
+          "data": {
+            "categories": [
+              "Terkumpul",
+              "Berjarak awal",
+              "Berjarak akhir"
+            ],
+            "series": [
+              {
+                "name": "Rata-rata ingatan",
+                "values": [
+                  0.54,
+                  0.71,
+                  0.66
+                ]
+              }
+            ]
+          },
+          "caption": "Data sintetis. Nilai lebih tinggi berarti ingatan simulasi lebih baik.",
+          "options": {}
+        },
+        {
+          "type": "paragraph",
+          "text": "Polanya sejalan dengan keunggulan jarak, tetapi dokumen ini tidak memperlakukan pola itu sebagai konfirmasi. Studi nyata akan perlu pemeriksaan pengacakan, analisis peserta yang gugur, dan rencana analisis yang diregistrasi sebelumnya. Semua itu di luar cakupan demonstrasi sintetis ini."
+        }
+      ]
+    },
+    {
+      "title": "4. Analisis sekunder",
+      "kicker": "Perbedaan antarindividu",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Gambar 2 memetakan skor kuis dasar simulasi terhadap ingatan terkoreksi untuk setiap kelompok. Kemiringan positifnya dihasilkan oleh struktur kovariat, bukan penemuan empiris. Gambar ini disertakan karena diagram sebaran lazim ada di makalah akademik, dan karena temanya harus tetap terbaca dengan penanda titik kecil, label sumbu, dan legenda."
+        },
+        {
+          "type": "chart",
+          "chart_type": "scatter",
+          "title": "Skor dasar dan ingatan terkoreksi",
+          "data": {
+            "points": [
+              {
+                "x": 0.35,
+                "y": 0.41
+              },
+              {
+                "x": 0.42,
+                "y": 0.47
+              },
+              {
+                "x": 0.48,
+                "y": 0.52
+              },
+              {
+                "x": 0.55,
+                "y": 0.58
+              },
+              {
+                "x": 0.61,
+                "y": 0.62
+              },
+              {
+                "x": 0.38,
+                "y": 0.55
+              },
+              {
+                "x": 0.46,
+                "y": 0.61
+              },
+              {
+                "x": 0.52,
+                "y": 0.67
+              },
+              {
+                "x": 0.58,
+                "y": 0.72
+              },
+              {
+                "x": 0.66,
+                "y": 0.76
+              },
+              {
+                "x": 0.41,
+                "y": 0.5
+              },
+              {
+                "x": 0.49,
+                "y": 0.57
+              },
+              {
+                "x": 0.57,
+                "y": 0.66
+              },
+              {
+                "x": 0.63,
+                "y": 0.7
+              },
+              {
+                "x": 0.7,
+                "y": 0.74
+              }
+            ]
+          },
+          "caption": "Observasi sintetis. Warna hanya dipakai membedakan titik, tidak ada kesimpulan pengelompokan yang bisa ditarik.",
+          "options": {
+            "x_label": "Skor kuis dasar",
+            "y_label": "Ingatan terkoreksi"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Diagram sebarannya sengaja dibuat sederhana. Makalah nyata biasanya menyertakan kecocokan model, pita kepercayaan, atau tabel koefisien. Tujuannya di sini memastikan alur render bisa menempatkan grafik kedua di satu halaman tanpa mendesak keterangan gambar atau teks di sekitarnya."
+        }
+      ]
+    },
+    {
+      "title": "5. Pembahasan",
+      "kicker": "Tafsir dan kehati-hatian",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hasil simulasi mengikuti arah yang diharapkan dari literatur jarak: menyebar tinjauan ke beberapa hari menghasilkan ingatan terkoreksi lebih tinggi daripada satu tinjauan terkumpul. Kondisi berjarak awal juga lebih baik daripada berjarak akhir dalam simulasi, tetapi tumpang tindih intervalnya berarti urutan itu jangan ditafsirkan berlebihan. Dalam studi nyata, rekomendasi praktisnya akan bergantung pada interval retensi yang penting bagi peserta, bukan pada satu tes tertunda."
+        },
+        {
+          "type": "paragraph",
+          "text": "Untuk desain pembelajaran mikro, implikasi yang lebih berguna bersifat prosedural. Modul pendek bisa memuat tinjauan terjadwal tanpa menambah sesi panjang kedua: tiga tinjauan lima menit mungkin cukup untuk mengubah bentuk kurva retensi. Pertanyaan desainnya adalah bagaimana membuat tinjauan itu menuntut mengingat, bukan sekadar bagaimana memendekkannya. Tinjauan lima menit yang hanya menampilkan ulang slide yang sama adalah intervensi yang berbeda dari tinjauan lima menit yang meminta peserta menyusun ulang gagasan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dokumen ini juga menunjukkan kenapa kualitas editorial dan visual harus dinilai bersama. Tabel hasil dengan interval yang tumpang tindih bisa valid secara teknis dan tetap menyesatkan kalau hierarki visualnya menyiratkan perbedaan yang pasti. Grafik bisa terlihat menarik dan tetap menyembunyikan skalanya. Karena itu tema akademik di sini memakai warna yang tertahan, label sumbu yang jelas, dan pemisahan tegas antara data sintetis dan referensi nyata."
+        },
+        {
+          "type": "callout",
+          "title": "Batas tafsir",
+          "text": "Ukuran efek sintetis tidak boleh dikutip, digabungkan, atau dipakai membenarkan intervensi belajar nyata. Makalah ini menunjukkan alur produksi, bukan hasil ilmiah.",
+          "tone": "warning"
+        }
+      ]
+    },
+    {
+      "title": "6. Keterbatasan",
+      "kicker": "Yang tidak bisa didukung dokumen ini",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Keterbatasannya disengaja dan cukup besar. Studi ini simulasi, bukan uji coba. Peserta, skor, dan intervalnya dihasilkan. Simulasi tidak memodelkan motivasi, pengetahuan awal, atau konteks sosial belajar. Ia tidak bisa menetapkan sebab akibat, dan tidak bisa memperkirakan efek populasi. Pemakaian angka di luar dokumen ini sama dengan menyalahgunakan artefaknya."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Tidak ada peserta manusia yang direkrut atau diamati.",
+            "Ukuran efek dan intervalnya parameter yang dihasilkan, bukan estimasi dari data.",
+            "Referensinya nyata, tetapi bukan bukti untuk hasil sintetis ini.",
+            "Dokumen ini tidak memuat praregistrasi, persetujuan etik, atau analisis peserta yang gugur.",
+            "Sistem visualnya dioptimalkan untuk keterbacaan dan demonstrasi, bukan untuk pengiriman ke jurnal tertentu."
+          ],
+          "ordered": false
+        },
+        {
+          "type": "paragraph",
+          "text": "Keterbatasan itu bukan cacat dokumen. Itu bagian dari deskripsinya yang jujur. Sistem produksi harus membuat perbedaan antara data demonstrasi dan bukti faktual terlihat saat membaca, bukan hanya di kolom metadata."
+        }
+      ]
+    },
+    {
+      "title": "Referensi",
+      "kicker": "Sumber nyata",
+      "blocks": [
+        {
+          "type": "citation",
+          "text": "Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. Psychological Bulletin, 132(3), 354-380.",
+          "source": "Psychological Bulletin",
+          "url": "https://doi.org/10.1037/0033-2909.132.3.354",
+          "accessed": "10 November 2026"
+        },
+        {
+          "type": "citation",
+          "text": "Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249-255.",
+          "source": "Psychological Science",
+          "url": "https://doi.org/10.1111/j.1467-9280.2006.01693.x",
+          "accessed": "10 November 2026"
+        },
+        {
+          "type": "citation",
+          "text": "Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students’ learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4-58.",
+          "source": "Psychological Science in the Public Interest",
+          "url": "https://doi.org/10.1177/1529100612453266",
+          "accessed": "10 November 2026"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lampiran A menyusul. Referensi di atas adalah publikasi nyata. Studi yang dilaporkan dalam dokumen ini sintetis."
+        }
+      ]
+    },
+    {
+      "title": "Lampiran A: Rancangan stimulus",
+      "kicker": "Materi tambahan",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Modul simulasi memakai enam skenario operasional pendek. Setiap skenario berisi satu dorongan keputusan, penjelasan singkat, dan satu pertanyaan untuk mengingat. Tabel di bawah menunjukkan sebaran jenis butir yang dipakai di tes tertunda. Tabel ini disertakan untuk menunjukkan tabel lampiran yang ringkas dan menguji penomoran halaman setelah daftar referensi."
+        },
+        {
+          "type": "table",
+          "title": "Sebaran butir tes tertunda",
+          "columns": [
+            {
+              "key": "type",
+              "label": "Jenis butir",
+              "width": 30
+            },
+            {
+              "key": "count",
+              "label": "Butir",
+              "align": "right",
+              "width": 12
+            },
+            {
+              "key": "example",
+              "label": "Contoh pertanyaan",
+              "width": 58
+            }
+          ],
+          "rows": [
+            {
+              "type": "Ingatan",
+              "count": "8",
+              "example": "Sebutkan tiga interval tinjauan yang dipakai kelompok berjarak awal."
+            },
+            {
+              "type": "Penerapan",
+              "count": "6",
+              "example": "Pilih jadwal tinjauan untuk modul kepatuhan 20 menit."
+            },
+            {
+              "type": "Transfer",
+              "count": "4",
+              "example": "Jelaskan kenapa tinjauan terkumpul bisa terasa lebih lancar daripada tinjauan berjarak."
+            },
+            {
+              "type": "Tafsir",
+              "count": "2",
+              "example": "Kenali keterbatasan membandingkan interval yang tumpang tindih."
+            }
+          ],
+          "caption": "Lampiran sintetis. Tidak ada butir tes nyata yang diujikan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Semua butir lampiran hanya ilustrasi. Dokumen berakhir di sini. Pembaca yang ingin memakai strukturnya sebaiknya mengganti hasil sintetis, referensi, dan lampiran dengan materi yang sudah diverifikasi sebelum rilis eksternal."
+        }
+      ]
+    }
+  ]
+}

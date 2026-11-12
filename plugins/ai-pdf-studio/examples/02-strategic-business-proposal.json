@@ -1,0 +1,424 @@
+{
+  "document_id": "demo-strategic-business-proposal",
+  "title": "Membangun Mesin Pertumbuhan yang Tahan Siklus",
+  "subtitle": "Proposal strategis untuk merancang sistem akuisisi dan retensi yang terukur, bukan kampanye yang cepat menguap",
+  "eyebrow": "Proposal strategis · 2027",
+  "category": "proposal",
+  "language": "id",
+  "audience": "Dewan direksi dan komite investasi PT Sinar Nusantara (entitas fiktif)",
+  "purpose": "Meyakinkan klien agar memilih pendekatan sistem pertumbuhan yang bisa diulang, bukan taktik pemasaran tunggal",
+  "tone": "Tenang, argumentatif, transparan",
+  "content_mode": "preserve",
+  "synthetic": true,
+  "page": {
+    "size": "A4"
+  },
+  "theme": {
+    "family": "premium_editorial"
+  },
+  "brand": {
+    "organization": "Lumina Advisory",
+    "logo_path": "assets/brand/lumina.svg",
+    "colors": {
+      "primary": "#9C2C2C",
+      "accent": "#B89457"
+    },
+    "website": "lumina.example (fiktif)"
+  },
+  "metadata": {
+    "author": "Lumina Advisory (fiktif)",
+    "organization": "Lumina Advisory",
+    "created_at": "2026-11-10T08:00:00Z",
+    "keywords": [
+      "proposal",
+      "strategi",
+      "sintetis"
+    ],
+    "date": "2026-11-10T08:00:00Z"
+  },
+  "cover": {
+    "stats": [
+      {
+        "value": "3",
+        "label": "Pilar sistem"
+      },
+      {
+        "value": "24",
+        "label": "Minggu program"
+      },
+      {
+        "value": "118%",
+        "label": "Target retensi"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Sudut pandang kami",
+      "kicker": "01 · Argumen utama",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pertumbuhan yang sehat jarang lahir dari satu kampanye yang brilian. Ia lahir dari sistem yang menyambungkan sinyal pasar, keputusan penawaran, dan pengalaman pelanggan dalam satu ritme yang bisa diulang. Ketika ketiga bagian itu terpisah, organisasi membeli lebih banyak perhatian daripada yang bisa diubah menjadi hubungan. Biaya naik. Pembelajaran tidak menumpuk. Setiap kuartal dimulai lagi dari nol.",
+          "lead": true,
+          "dropcap": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Lumina Advisory mengusulkan program 24 minggu untuk membangun mesin pertumbuhan yang tahan siklus. Program ini tidak dimulai dari daftar taktik. Ia dimulai dari tiga pertanyaan. Pelanggan mana yang benar-benar layak dilayani? Sinyal apa yang paling cepat menunjukkan kecocokan? Keputusan apa yang harus berubah ketika sinyal itu muncul? Jawaban ketiganya menjadi arsitektur sistem, bukan sekadar laporan strategi yang tebal."
+        },
+        {
+          "type": "quote",
+          "text": "Pertumbuhan yang baik bukan yang paling cepat, tetapi yang paling bisa diulang.",
+          "attribution": "Sintesis wawancara riset Lumina",
+          "role": "Demo sintetis, bukan testimoni nyata"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kami tidak mengklaim pendekatan ini cocok untuk semua organisasi. Ia paling relevan ketika perusahaan sudah punya permintaan awal, tetapi belum punya cara yang konsisten untuk memilih, melayani, dan mempertahankan pelanggan terbaiknya. Kalau kondisi itu belum terpenuhi, pekerjaan pertama bukan kampanye. Pekerjaan pertama adalah menyelaraskan definisi dan kepemilikan data."
+        }
+      ]
+    },
+    {
+      "title": "Peluang yang kami lihat",
+      "kicker": "02 · Mengapa sekarang",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dalam simulasi diagnostik yang kami susun untuk proposal ini, tiga pola muncul berulang. Pertama, biaya akuisisi naik lebih cepat daripada nilai kontrak awal. Kedua, pelanggan yang bertahan lebih dari dua belas bulan punya pola onboarding yang berbeda, tetapi pola itu tidak pernah jadi standar. Ketiga, tim penjualan dan tim layanan memakai definisi “pelanggan sehat” yang berbeda, sehingga eskalasi sering terlambat."
+        },
+        {
+          "type": "kpi",
+          "items": [
+            {
+              "label": "Pertumbuhan pipeline",
+              "value": "34",
+              "unit": "%",
+              "delta": "target 12 bulan",
+              "tone": "positive",
+              "note": "Ilustrasi sintetis"
+            },
+            {
+              "label": "Biaya akuisisi",
+              "value": "-22",
+              "unit": "%",
+              "delta": "target program",
+              "tone": "positive",
+              "note": "Ilustrasi sintetis"
+            },
+            {
+              "label": "Retensi bersih",
+              "value": "118",
+              "unit": "%",
+              "delta": "target akhir",
+              "tone": "accent",
+              "note": "Ilustrasi sintetis"
+            },
+            {
+              "label": "Periode balik modal",
+              "value": "9",
+              "unit": "bln",
+              "delta": "dari 14 bulan",
+              "tone": "positive",
+              "note": "Ilustrasi sintetis"
+            }
+          ],
+          "title": ""
+        },
+        {
+          "type": "chart",
+          "chart_type": "bar",
+          "title": "Kontribusi kanal terhadap pertumbuhan pipeline",
+          "data": {
+            "categories": [
+              "Rujukan",
+              "Komunitas",
+              "Konten",
+              "Penjualan langsung"
+            ],
+            "series": [
+              {
+                "name": "Kontribusi",
+                "values": [
+                  34,
+                  27,
+                  22,
+                  17
+                ]
+              }
+            ]
+          },
+          "caption": "Ilustrasi sintetis. Persentase tidak mewakili perusahaan nyata.",
+          "options": {}
+        },
+        {
+          "type": "paragraph",
+          "text": "Peluang terbesar bukan menambah kanal baru. Peluang terbesar adalah menaikkan hasil dari kanal yang sudah terbukti, lalu menghentikan kanal yang hanya menghasilkan perhatian tanpa kualitas percakapan. Kedengarannya sederhana. Jarang diambil, karena setiap kanal punya pemilik, anggaran, dan cerita keberhasilannya sendiri."
+        }
+      ]
+    },
+    {
+      "title": "Hambatan yang harus diakui",
+      "kicker": "03 · Risiko dan batasan",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Program pertumbuhan lebih sering gagal karena hambatan organisasi daripada karena kurang ide. Empat hambatan berikut perlu diselesaikan sebelum desain solusi dimulai. Kalau salah satunya tidak bisa diselesaikan, ruang lingkup program harus dipersempit secara eksplisit."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "title": "Data yang tidak sepakat",
+              "text": "Pipeline, pendapatan, dan retensi dihitung dengan definisi berbeda di setiap tim. Sistem baru akan mewarisi perselisihan ini kalau definisinya tidak dibekukan lebih dulu."
+            },
+            {
+              "title": "Kepemilikan yang tersebar",
+              "text": "Tidak ada satu pemilik untuk perjalanan pelanggan dari sinyal pertama sampai perpanjangan kontrak. Akibatnya keputusan penting jatuh di antara fungsi."
+            },
+            {
+              "title": "Insentif yang berlawanan",
+              "text": "Tim penjualan diukur pada kontrak baru, tim layanan diukur pada kepuasan, dan tim produk diukur pada penggunaan. Ketiganya masuk akal sendiri-sendiri, tetapi tidak selalu sejalan."
+            },
+            {
+              "title": "Kapasitas implementasi",
+              "text": "Permintaan yang tumbuh tanpa kapasitas implementasi akan menciptakan utang pengalaman pelanggan yang mahal untuk diperbaiki."
+            }
+          ],
+          "ordered": false
+        },
+        {
+          "type": "callout",
+          "title": "Batasan proposal",
+          "text": "Seluruh angka, organisasi, dan kutipan dalam dokumen ini adalah ilustrasi sintetis. Proposal tidak memuat riset pasar nyata, testimoni nyata, atau komitmen hasil yang bisa dianggap jaminan.",
+          "tone": "warning"
+        }
+      ]
+    },
+    {
+      "title": "Arsitektur solusi",
+      "kicker": "04 · Sistem, bukan daftar taktik",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kami merancang empat lapisan yang saling mengunci. Lapisan pertama menjaga kebenaran data. Isinya satu definisi untuk pelanggan, satu definisi untuk kesehatan akun, dan satu sumber untuk pipeline. Lapisan kedua soal pemilihan, yaitu model kecocokan yang menghubungkan sinyal awal dengan nilai jangka panjang. Lapisan ketiga soal orkestrasi, yaitu urutan interaksi yang berubah berdasarkan sinyal, bukan kalender. Lapisan keempat soal pembelajaran. Setiap interaksi menghasilkan bukti yang memperbaiki model berikutnya."
+        },
+        {
+          "type": "diagram",
+          "diagram_type": "flow",
+          "title": "Empat lapisan mesin pertumbuhan",
+          "nodes": [
+            {
+              "id": "truth",
+              "label": "Kebenaran data",
+              "detail": "Definisi tunggal untuk pelanggan, pipeline, dan kesehatan akun."
+            },
+            {
+              "id": "fit",
+              "label": "Pemilihan",
+              "detail": "Model kecocokan yang memisahkan sinyal dari kebisingan."
+            },
+            {
+              "id": "orchestration",
+              "label": "Orkestrasi",
+              "detail": "Urutan interaksi yang dipicu oleh sinyal."
+            },
+            {
+              "id": "learning",
+              "label": "Pembelajaran",
+              "detail": "Bukti dari setiap interaksi kembali ke model."
+            }
+          ],
+          "caption": "Ilustrasi arsitektur sintetis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Setiap lapisan punya keluaran yang bisa diperiksa. Lapisan data menghasilkan kamus metrik dan pemiliknya. Dari lapisan pemilihan keluar kriteria kualifikasi dan daftar akun prioritas. Orkestrasi menghasilkan peta perjalanan dan aturan eskalasi, sedangkan lapisan pembelajaran menghasilkan siklus tinjauan dua mingguan. Tidak ada lapisan yang bergantung pada satu alat tertentu. Alat bisa diganti tanpa membongkar logika sistemnya."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Minggu 1-2: membekukan definisi dan memetakan sumber data.",
+            "Minggu 3-6: membangun model kecocokan dan kriteria kualifikasi.",
+            "Minggu 7-14: menjalankan pilot orkestrasi pada satu segmen.",
+            "Minggu 15-24: memperluas, mengukur, dan menetapkan ritme operasi."
+          ],
+          "ordered": true
+        }
+      ]
+    },
+    {
+      "title": "Rencana kerja",
+      "kicker": "05 · Urutan dan gerbang keputusan",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Program dibagi menjadi empat fase dengan gerbang keputusan di akhir setiap fase. Gerbang ini bukan formalitas. Kalau kriteria pada suatu gerbang tidak terpenuhi, program berhenti atau dipersempit sebelum biaya berikutnya keluar. Pendekatan ini melindungi klien dari program besar yang berjalan tanpa bukti di tengahnya."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "date": "Fase 1 · 2 minggu",
+              "title": "Diagnostik dan pembekuan definisi",
+              "text": "Wawancara pemangku kepentingan, audit data, dan penetapan satu kamus metrik. Keluaran: peta hambatan dan baseline."
+            },
+            {
+              "date": "Fase 2 · 4 minggu",
+              "title": "Desain sistem",
+              "text": "Model kecocokan, peta perjalanan, aturan eskalasi, dan spesifikasi dashboard keputusan. Keluaran: blueprint yang disetujui."
+            },
+            {
+              "date": "Fase 3 · 8 minggu",
+              "title": "Pilot pada satu segmen",
+              "text": "Implementasi terbatas dengan kelompok kontrol. Keluaran: bukti awal, biaya per hasil, dan daftar perbaikan."
+            },
+            {
+              "date": "Fase 4 · 10 minggu",
+              "title": "Perluasan dan institusionalisasi",
+              "text": "Perluasan kanal, pelatihan pemilik, dan ritme tinjauan dua mingguan. Keluaran: sistem yang berjalan tanpa ketergantungan konsultan."
+            }
+          ],
+          "title": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "Kami menyarankan pilot pada satu segmen dengan volume cukup untuk menghasilkan sinyal, tetapi cukup kecil untuk dihentikan tanpa kerusakan komersial. Segmen ideal punya setidaknya 40 akun, siklus penjualan di bawah enam bulan, dan data interaksi yang bisa diakses. Kalau segmen tidak memenuhi kriteria itu, ruang lingkup pilot harus diubah sebelum Fase 3."
+        }
+      ]
+    },
+    {
+      "title": "Investasi",
+      "kicker": "06 · Transparansi komersial",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Investasi di bawah ini adalah ilustrasi sintetis untuk menunjukkan struktur harga berbasis fase, bukan penawaran komersial nyata. Setiap fase punya keluaran yang jelas dan bisa dihentikan di gerbang keputusan. Biaya belum termasuk lisensi perangkat pihak ketiga atau belanja media yang dikeluarkan klien."
+        },
+        {
+          "type": "table",
+          "title": "Struktur investasi per fase",
+          "columns": [
+            {
+              "key": "fase",
+              "label": "Fase",
+              "width": 28
+            },
+            {
+              "key": "durasi",
+              "label": "Durasi",
+              "width": 14
+            },
+            {
+              "key": "investasi",
+              "label": "Investasi (Rp juta)",
+              "align": "right",
+              "width": 20
+            },
+            {
+              "key": "keluaran",
+              "label": "Keluaran utama",
+              "width": 38
+            }
+          ],
+          "rows": [
+            {
+              "fase": "Diagnostik",
+              "durasi": "2 minggu",
+              "investasi": "180",
+              "keluaran": "Baseline, peta hambatan, kamus metrik"
+            },
+            {
+              "fase": "Desain sistem",
+              "durasi": "4 minggu",
+              "investasi": "420",
+              "keluaran": "Blueprint, model kecocokan, aturan eskalasi"
+            },
+            {
+              "fase": "Pilot",
+              "durasi": "8 minggu",
+              "investasi": "640",
+              "keluaran": "Bukti awal, biaya per hasil, daftar perbaikan"
+            },
+            {
+              "fase": "Perluasan",
+              "durasi": "10 minggu",
+              "investasi": "760",
+              "keluaran": "Sistem berjalan, pelatihan, ritme tinjauan"
+            }
+          ],
+          "caption": "Ilustrasi sintetis. Bukan penawaran komersial."
+        },
+        {
+          "type": "callout",
+          "title": "Apa yang tidak termasuk",
+          "text": "Belanja media, lisensi perangkat lunak, penambahan anggota tim klien, dan pekerjaan integrasi data di luar satu sumber utama tidak termasuk dalam ilustrasi ini. Estimasi untuk hal-hal itu disusun setelah diagnostik, bukan sebelumnya.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "title": "Mengapa Lumina",
+      "kicker": "07 · Cara kami bekerja",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kami bekerja sebagai mitra desain, bukan vendor laporan. Artinya kami ikut membangun keputusan, bukan hanya menyerahkan slide. Tim inti terdiri dari tiga peran. Arsitek pertumbuhan memimpin desain sistem. Analis data menjaga definisi dan bukti. Operator komersial bekerja bersama tim klien di lapangan. Tidak ada peran yang hanya simbolis."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "title": "Kami memulai dari keputusan",
+              "text": "Setiap dokumen dan lokakarya diakhiri dengan keputusan, pemilik, dan tanggal. Kalau tidak ada keputusan yang mungkin, kami mengatakan demikian."
+            },
+            {
+              "title": "Kami menunjukkan batasan",
+              "text": "Kami tidak menjanjikan hasil yang tidak bisa diukur dengan data yang tersedia. Asumsi dan ketidakpastian ditulis terbuka."
+            },
+            {
+              "title": "Kami membangun agar dilepas",
+              "text": "Keberhasilan program diukur dari kemampuan tim klien menjalankan sistem tanpa kami, bukan dari ketergantungan pada konsultan."
+            }
+          ],
+          "ordered": false
+        },
+        {
+          "type": "quote",
+          "text": "Kami tidak menjual kepastian. Kami menjual cara yang lebih disiplin untuk mengurangi ketidakpastian.",
+          "attribution": "Sintesis prinsip kerja Lumina",
+          "role": "Dokumen demonstrasi sintetis"
+        }
+      ]
+    },
+    {
+      "title": "Keputusan berikutnya",
+      "kicker": "08 · Tiga langkah",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kalau arah ini sesuai, kami mengusulkan tiga langkah berikutnya. Pertama, lokakarya keputusan selama 90 menit bersama pemilik komersial, data, dan layanan untuk mengonfirmasi ruang lingkup dan hambatan. Kedua, diagnostik dua minggu untuk menguji asumsi dengan data yang tersedia. Ketiga, gerbang keputusan untuk menentukan apakah program lanjut ke desain sistem."
+        },
+        {
+          "type": "callout",
+          "title": "Yang kami minta dari Anda",
+          "text": "Satu sponsor eksekutif, akses ke data pipeline dan retensi 12 bulan terakhir, serta kesediaan menghentikan program kalau gerbang diagnostik tidak terpenuhi. Kami tidak meminta komitmen anggaran penuh sebelum bukti awal tersedia.",
+          "tone": "success"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Minggu ini: konfirmasi sponsor dan dua peserta lokakarya.",
+            "Minggu depan: lokakarya keputusan 90 menit.",
+            "Dua minggu setelahnya: presentasi temuan diagnostik dan rekomendasi gerbang."
+          ],
+          "ordered": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Dokumen ini adalah demonstrasi sintetis yang disiapkan untuk AI PDF Studio Ultimate. Seluruh nama organisasi, angka, kutipan, dan skenario adalah fiksi. Tidak ada pernyataan di dalamnya yang boleh dikutip sebagai bukti kinerja atau janji komersial."
+        }
+      ]
+    }
+  ]
+}

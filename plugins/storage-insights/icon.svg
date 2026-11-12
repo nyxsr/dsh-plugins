@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Storage insights">
+  <rect width="64" height="64" rx="14" fill="#1f6feb"/>
+  <rect x="14" y="17" width="36" height="13" rx="4" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <rect x="14" y="34" width="36" height="13" rx="4" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="22" cy="23.5" r="2.1" fill="#ffffff"/>
+  <circle cx="22" cy="40.5" r="2.1" fill="#ffffff"/>
+  <path d="M29 23.5h14M29 40.5h14" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+</svg>

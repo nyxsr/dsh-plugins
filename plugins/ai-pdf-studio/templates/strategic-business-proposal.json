@@ -1,0 +1,67 @@
+{
+  "template_id": "strategic-business-proposal",
+  "name": "Proposal bisnis strategis",
+  "version": "1.0.0",
+  "category": "proposal",
+  "theme": "premium_editorial",
+  "page_size": "A4",
+  "cover_kind": "editorial",
+  "default_audience": "Pengambil keputusan klien dan penilai pengadaan",
+  "default_purpose": "Rumuskan peluang, ajukan respons yang berbeda, dan mudahkan keputusan komersial",
+  "description": "Proposal editorial yang persuasif dengan ringkasan sudut pandang, rumusan masalah, arsitektur solusi, linimasa, tabel investasi, dan halaman persetujuan.",
+  "structural_signature": "Sudut pandang -> masalah -> pilar solusi -> bukti -> investasi -> persetujuan",
+  "required_blocks": [
+    "paragraph",
+    "list",
+    "timeline",
+    "table",
+    "callout"
+  ],
+  "recommended_blocks": [
+    "quote",
+    "diagram",
+    "kpi"
+  ],
+  "section_plan": [
+    {
+      "title": "Sudut pandang",
+      "purpose": "Awali dengan ketegangan strategis klien",
+      "blocks": [
+        "paragraph",
+        "quote"
+      ]
+    },
+    {
+      "title": "Peluang",
+      "purpose": "Ukur celahnya hanya dengan bukti yang diberikan",
+      "blocks": [
+        "paragraph",
+        "kpi"
+      ]
+    },
+    {
+      "title": "Respons kami",
+      "purpose": "Jelaskan arsitektur solusinya",
+      "blocks": [
+        "diagram",
+        "list"
+      ]
+    },
+    {
+      "title": "Rencana pengiriman",
+      "purpose": "Buat waktu dan tata kelola jadi konkret",
+      "blocks": [
+        "timeline"
+      ]
+    },
+    {
+      "title": "Investasi",
+      "purpose": "Sajikan opsi komersial yang transparan",
+      "blocks": [
+        "table",
+        "callout"
+      ]
+    }
+  ],
+  "preview": "templates/previews/strategic-business-proposal.png"
+}

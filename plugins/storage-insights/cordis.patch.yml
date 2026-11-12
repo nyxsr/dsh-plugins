@@ -1,0 +1,3 @@
+- insert:
+    - id: storage-insights
+      name: '@local/storage-insights'

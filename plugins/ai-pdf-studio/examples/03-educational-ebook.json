@@ -1,0 +1,442 @@
+{
+  "document_id": "demo-educational-ebook",
+  "title": "Latihan Memperhatikan",
+  "subtitle": "Panduan singkat merancang pembelajaran yang benar-benar diingat orang",
+  "eyebrow": "Desain pembelajaran · Panduan lapangan",
+  "category": "ebook",
+  "language": "id",
+  "audience": "Perancang pembelajaran, guru, dan fasilitator yang membangun pengalaman belajar",
+  "purpose": "Mengajarkan satu model praktis untuk desain pembelajaran yang sadar perhatian, lalu memberi pembaca latihan mingguan yang bisa diulang",
+  "tone": "Hangat, tepat, praktis",
+  "content_mode": "preserve",
+  "synthetic": true,
+  "page": {
+    "size": "A5"
+  },
+  "theme": {
+    "family": "minimalist_clean"
+  },
+  "brand": {
+    "organization": "The Attention Lab",
+    "logo_path": "assets/brand/attention.svg",
+    "colors": {
+      "primary": "#E23B2E",
+      "accent": "#111111"
+    },
+    "website": "attention.example (fiktif)"
+  },
+  "metadata": {
+    "author": "The Attention Lab (fiktif)",
+    "organization": "The Attention Lab",
+    "created_at": "2026-11-10T08:00:00Z",
+    "keywords": [
+      "desain pembelajaran",
+      "perhatian",
+      "sintetis"
+    ],
+    "date": "2026-11-10T08:00:00Z"
+  },
+  "cover": {
+    "stats": [
+      {
+        "value": "5",
+        "label": "Bab singkat"
+      },
+      {
+        "value": "1",
+        "label": "Latihan mingguan"
+      },
+      {
+        "value": "12",
+        "label": "Menit per studio"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Cara memakai buku ini",
+      "kicker": "Sebelum mulai",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ini buku kecil tentang masalah besar. Sebagian besar pengalaman belajar dirancang untuk disampaikan, bukan untuk diingat. Isinya disusun mengikuti apa yang ingin dikatakan guru, apa yang ingin ditampilkan slide, atau apa yang ingin dicatat tim kepatuhan. Peserta diminta menyediakan perhatiannya, menyambung kepingan gagasannya, lalu menindaklanjuti sendiri. Kadang mereka berhasil. Sering tidak.",
+          "lead": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Buku ini pendek karena memang dirancang begitu. Setiap bab memperkenalkan satu gagasan, satu latihan, dan satu kegagalan yang umum. Anda bisa menamatkannya dalam satu sore, tetapi buku ini lebih berguna dipakai sebulan. Baca satu bab, cobalah latihannya pada sesi nyata, lalu kembali ke ringkasan sebelum lanjut ke bab berikutnya. Tujuannya bukan cepat selesai. Tujuannya mengubah satu keputusan desain."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "title": "Baca sambil membayangkan satu sesi",
+              "text": "Pilih lokakarya, pelajaran, atau urutan onboarding yang sedang Anda rancang. Biarkan sesi itu terlihat selama Anda membaca."
+            },
+            {
+              "title": "Kerjakan latihan kecilnya",
+              "text": "Setiap bab ditutup dengan latihan sepuluh sampai lima belas menit. Kerjakan sebelum lanjut."
+            },
+            {
+              "title": "Tinjau tiap minggu",
+              "text": "Pakai tinjauan mingguan di Bab 5 untuk melihat apa yang berubah pada perhatian dan ingatan peserta Anda."
+            }
+          ],
+          "ordered": false
+        },
+        {
+          "type": "callout",
+          "title": "Catatan soal bukti",
+          "text": "Panduan ini adalah demonstrasi sintetis. Isinya bersandar pada prinsip belajar yang sudah banyak dibahas, tetapi tidak melaporkan eksperimen baru dan tidak boleh dikutip sebagai bukti empiris. Daftar referensi di bagian akhir menunjuk ke sumber nyata untuk bacaan lanjutan.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "title": "Bab 1: Perhatian adalah anggaran",
+      "kicker": "Satu gagasan",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Perhatian bukan keran yang bisa dibuka selama satu jam. Perhatian itu anggaran yang terus terpakai. Setiap elemen di ruang belajar meminta penarikan: istilah baru, gambar hiasan, notifikasi, instruksi yang seharusnya sudah diberikan lebih awal. Ketika anggarannya habis, peserta tidak berhenti memperhatikan begitu saja. Mereka mulai memilih hal lain untuk diabaikan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Karena itu, “lebih banyak” sering jadi jawaban yang salah untuk peserta yang mulai lepas. Lebih banyak slide, lebih banyak contoh, dan lebih banyak detail bisa mengurangi perhatian untuk hal yang benar-benar penting. Tugas perancang bukan mengisi anggaran. Tugasnya memutuskan apa yang layak mendapat penarikan berikutnya, lalu membuang yang tidak."
+        },
+        {
+          "type": "quote",
+          "text": "Pertanyaannya bukan “bagaimana saya menarik perhatian mereka”, tetapi “saya meminta mereka membelanjakan perhatian untuk apa”.",
+          "attribution": "Catatan pengajaran sintetis",
+          "role": "The Attention Lab (fiktif)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ada uji praktis yang bisa dicoba sekarang. Buka kerangka sesi Anda, tandai setiap elemen sebagai penting, berguna, atau opsional. Kalau elemen opsional lebih banyak daripada yang penting, sesi itu mungkin meminta peserta memikul persiapan Anda, bukan pemahaman mereka. Buang satu elemen opsional sebelum menambah apa pun."
+        },
+        {
+          "type": "callout",
+          "title": "Coba ini: sekali lewat untuk mengurangi",
+          "text": "Ambil sesi 45 menit. Buang satu slide, satu aktivitas, atau satu instruksi. Jangan ganti dengan yang lain. Jalankan sesinya, lalu perhatikan apakah ada yang penting hilang. Kalau tidak ada, elemen itu mungkin melayani perancang, bukan peserta.",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "title": "Bab 2: Tiga saringan",
+      "kicker": "Sebuah model",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Informasi tidak masuk ke memori kerja dengan sendirinya. Ia melewati tiga saringan: sinyal, relevansi, dan usaha. Peserta harus menyadari sinyalnya, menilai relevansinya dengan tujuan yang ia pegang, dan bersedia mengeluarkan usaha. Desain bisa menopang ketiganya, tetapi tidak bisa menggantikan semuanya."
+        },
+        {
+          "type": "diagram",
+          "diagram_type": "cycle",
+          "title": "Tiga saringan pembelajaran yang bertahan",
+          "nodes": [
+            {
+              "id": "signal",
+              "label": "Sinyal",
+              "detail": "Apakah peserta bisa melihat perbedaan yang penting?"
+            },
+            {
+              "id": "relevance",
+              "label": "Relevansi",
+              "detail": "Apakah ini tersambung dengan tujuan yang sudah dipegang peserta?"
+            },
+            {
+              "id": "effort",
+              "label": "Usaha",
+              "detail": "Apakah kerja mentalnya menantang tetapi masih bisa dicapai?"
+            },
+            {
+              "id": "reward",
+              "label": "Imbalan",
+              "detail": "Apakah usahanya menghasilkan kemajuan yang terlihat?"
+            }
+          ],
+          "caption": "Diagram orisinal. Lingkarannya heuristik desain, bukan model tahapan yang sudah divalidasi."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sinyal soal kontras. Kalau semua elemen sama kerasnya, tidak ada yang menonjol. Relevansi soal sambungan. Sebuah fakta jadi mudah dipelajari ketika ia menjawab pertanyaan yang sudah ada di kepala peserta. Usaha soal tingkat kesulitan. Usaha terlalu sedikit menghasilkan kelancaran tanpa daya ingat. Usaha terlalu banyak menghasilkan penghindaran. Tugas perancang adalah menjaga peserta di pita sempit antara bosan dan kelebihan beban."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "title": "Sinyal",
+              "text": "Pakai satu kontras kuat per layar atau halaman. Hindari aksen yang saling bersaing."
+            },
+            {
+              "title": "Relevansi",
+              "text": "Buka dengan keputusan atau masalah yang akan dihadapi peserta, bukan dengan sejarah topiknya."
+            },
+            {
+              "title": "Usaha",
+              "text": "Minta peserta mengingat sebelum memberi jawaban. Buat percobaan pertama mungkin dilakukan, bukan mudah."
+            }
+          ],
+          "ordered": false
+        }
+      ]
+    },
+    {
+      "title": "Bab 3: Studio dua belas menit",
+      "kicker": "Sebuah latihan",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Studio dua belas menit adalah struktur kecil yang bisa diulang untuk satu segmen belajar. Ini bukan rencana pelajaran lengkap. Ini cara menjaga perhatian sambil membuat peserta mengerjakan kerja kognitif yang membentuk memori. Strukturnya punya empat bagian: satu pertanyaan, percobaan pertama, penjelasan singkat, dan tugas mengingat."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "date": "0-2 menit",
+              "title": "Pertanyaan",
+              "text": "Ajukan satu keputusan atau masalah konkret. Jangan jelaskan konsepnya dulu."
+            },
+            {
+              "date": "2-5 menit",
+              "title": "Percobaan pertama",
+              "text": "Minta peserta memilih jawaban, prediksi, atau pilihan desain. Jawaban salah adalah data yang berguna."
+            },
+            {
+              "date": "5-9 menit",
+              "title": "Penjelasan",
+              "text": "Ajarkan gagasan terkecil yang menyelesaikan ketegangan tadi. Pakai satu contoh dan satu contoh tandingan."
+            },
+            {
+              "date": "9-12 menit",
+              "title": "Mengingat kembali",
+              "text": "Minta peserta menyusun ulang gagasannya dari ingatan, lalu bandingkan dengan penjelasan."
+            }
+          ],
+          "title": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "Studio ini bekerja karena membalik urutan yang biasa. Sebagian besar sesi menjelaskan dulu, bertanya belakangan. Peserta pun merasa sudah paham sebelum sempat mengujinya. Percobaan pertama menciptakan kebutuhan untuk tahu. Penjelasan mendarat tepat di kebutuhan itu, bukan datang sebelum kebutuhan itu ada."
+        },
+        {
+          "type": "callout",
+          "title": "Jangan lewati percobaan pertama",
+          "text": "Percobaan pertama tidak perlu dinilai. Tujuannya membuat model yang dipegang peserta sekarang terlihat, baik oleh peserta maupun fasilitator. Jawaban pertama yang salah bukan kegagalan studio. Justru itu alasan studio ini bekerja.",
+          "tone": "accent"
+        }
+      ]
+    },
+    {
+      "title": "Bab 4: Jebakan yang sering muncul",
+      "kicker": "Yang perlu dihindari",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sebagian besar masalah perhatian tidak lahir dari kurangnya karisma. Ia lahir dari pilihan desain yang terasa membantu saat itu dan menimbulkan biaya kemudian. Jebakan di bawah ini umum di lokakarya, e-learning, dan pelatihan teknis. Tidak ada yang fatal sendirian. Bersama-sama, mereka menjelaskan kenapa sebuah sesi bisa terasa hidup tetapi menghasilkan sedikit sekali ingatan."
+        },
+        {
+          "type": "table",
+          "title": "Lima jebakan desain dan penggantinya",
+          "columns": [
+            {
+              "key": "trap",
+              "label": "Jebakan",
+              "width": 30
+            },
+            {
+              "key": "symptom",
+              "label": "Bentuknya di lapangan",
+              "width": 34
+            },
+            {
+              "key": "replacement",
+              "label": "Langkah yang lebih baik",
+              "width": 36
+            }
+          ],
+          "rows": [
+            {
+              "trap": "Berpikir cakupan",
+              "symptom": "Setiap topik dapat satu slide",
+              "replacement": "Pilih dua keputusan dan gali dalam"
+            },
+            {
+              "trap": "Ilusi kelancaran",
+              "symptom": "Peserta mengangguk saat Anda menjelaskan",
+              "replacement": "Minta mereka mengingat sebelum ringkasan"
+            },
+            {
+              "trap": "Beban hiasan",
+              "symptom": "Gambar dan ikon bersaing dengan gagasannya",
+              "replacement": "Satu visual yang membawa argumen"
+            },
+            {
+              "trap": "Mengajar jawaban lebih dulu",
+              "symptom": "Konsep datang sebelum pertanyaannya",
+              "replacement": "Buka dengan prediksi atau dilema"
+            },
+            {
+              "trap": "Tanpa jeda mengingat",
+              "symptom": "Sesi ditutup dengan ringkasan",
+              "replacement": "Jadwalkan tugas mengingat singkat dua hari kemudian"
+            }
+          ],
+          "caption": "Contoh pengajaran sintetis, bukan temuan riset."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jebakan paling mahal adalah ringkasan di akhir. Ringkasan terasa seperti pemantapan, tetapi sering berubah jadi penjelasan kedua yang disampaikan justru saat perhatian paling rendah. Pertanyaan untuk mengingat biasanya lebih baik. Minta peserta menuliskan tiga keputusan yang akan mereka ubah, lalu bandingkan dengan pasangannya. Ringkasan bisa jadi satu halaman rujukan yang mereka bawa pulang, bukan pertunjukan di penghujung sesi."
+        }
+      ]
+    },
+    {
+      "title": "Bab 5: Tinjauan mingguan",
+      "kicker": "Sebuah ritme",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Satu sesi yang bagus bukan sebuah praktik. Tinjauan mingguan adalah ritual dua puluh menit untuk melihat apa yang sebenarnya dihasilkan desain Anda. Ukurannya sengaja kecil: tiga pertanyaan, satu artefak, satu perubahan. Tujuannya bukan membuktikan bahwa sebuah teknik berhasil. Tujuannya memperpendek jarak antara pilihan desain dan efeknya pada peserta."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "title": "Apa yang berhasil diingat peserta?",
+              "text": "Bawa satu bukti: jawaban kuis, pertanyaan yang muncul, atau tugas yang selesai tanpa bantuan."
+            },
+            {
+              "title": "Di mana perhatian menghilang?",
+              "text": "Tandai momen di sesi ketika ruangan jadi pasif. Apa yang terjadi tepat sebelumnya?"
+            },
+            {
+              "title": "Apa yang akan Anda kurangi?",
+              "text": "Pilih satu elemen untuk dibuang atau ditunda pada iterasi berikutnya. Jangan menambah elemen baru di minggu yang sama."
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Jaga tinjauannya cukup singkat agar bertahan di minggu yang sibuk. Retrospektif panjang yang cuma terjadi sekali kalah berguna dari tinjauan pendek yang terjadi empat kali. Artefaknya bisa satu halaman saja: kerangka sesi dengan tiga catatan dan satu keputusan."
+        },
+        {
+          "type": "callout",
+          "title": "Tinjauan paling minimal",
+          "text": "Kalau Anda hanya punya lima menit, jawab satu pertanyaan: apa yang bisa dilakukan peserta dari ingatan yang sebelumnya tidak bisa mereka lakukan? Kalau tidak bisa menjawabnya, keputusan desain berikutnya bukan aktivitas baru. Keputusan itu tugas mengingat yang lebih baik.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "title": "Ringkasan",
+      "kicker": "Seluruh buku dalam satu halaman",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Perhatian adalah anggaran. Mendesain berarti memutuskan apa yang layak mendapat penarikan berikutnya. Tiga saringan, yaitu sinyal, relevansi, dan usaha, adalah cara praktis memeriksa pengalaman belajar sebelum Anda menambah isinya. Studio dua belas menit mengubah saringan itu menjadi urutan yang bisa diulang. Tinjauan mingguan menjaga praktiknya tetap jujur."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Buang satu elemen opsional sebelum menambah yang baru.",
+            "Buka dengan keputusan, bukan definisi.",
+            "Minta percobaan pertama sebelum penjelasan.",
+            "Tutup dengan mengingat kembali, bukan pertunjukan ringkasan.",
+            "Tinjau satu artefak dan buat satu perubahan tiap minggu."
+          ],
+          "ordered": false
+        },
+        {
+          "type": "paragraph",
+          "text": "Kalau hanya satu kalimat yang ingin Anda ingat, ambil ini: kerja mental peserta adalah kurikulumnya. Sisanya panggung."
+        }
+      ]
+    },
+    {
+      "title": "Glosarium",
+      "kicker": "Bahasa bersama",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Istilah yang dipakai di panduan ini",
+          "columns": [
+            {
+              "key": "term",
+              "label": "Istilah",
+              "width": 28
+            },
+            {
+              "key": "meaning",
+              "label": "Definisi kerja",
+              "width": 72
+            }
+          ],
+          "rows": [
+            {
+              "term": "Anggaran perhatian",
+              "meaning": "Kapasitas kognitif terbatas yang bisa dialokasikan peserta untuk satu tugas dalam periode tertentu."
+            },
+            {
+              "term": "Mengingat kembali",
+              "meaning": "Menyusun ulang informasi dari ingatan tanpa melihat sumbernya."
+            },
+            {
+              "term": "Ilusi kelancaran",
+              "meaning": "Perasaan bahwa materi sudah dipahami karena mudah diikuti saat itu."
+            },
+            {
+              "term": "Beban hiasan",
+              "meaning": "Elemen visual atau teks yang memakan perhatian tanpa menopang tujuan belajar."
+            },
+            {
+              "term": "Percobaan pertama",
+              "meaning": "Jawaban awal peserta sebelum konsepnya dijelaskan."
+            },
+            {
+              "term": "Sinyal",
+              "meaning": "Kontras yang membuat perbedaan penting jadi terlihat."
+            }
+          ],
+          "caption": "Definisi kerja untuk panduan sintetis ini."
+        },
+        {
+          "type": "paragraph",
+          "text": "Definisinya sengaja dibuat sederhana. Kosakata bersama berguna hanya kalau ia mengubah keputusan. Kalau sebuah istilah tidak membantu Anda memilih apa yang dibuang, apa yang ditanyakan, atau apa yang ditinjau, biarkan istilah itu tinggal di glosarium."
+        }
+      ]
+    },
+    {
+      "title": "Referensi dan bacaan lanjutan",
+      "kicker": "Sumber nyata",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sumber berikut nyata dan disediakan untuk bacaan lanjutan. Sumber-sumber ini tidak dipakai untuk menghasilkan data sintetis di panduan ini, dan panduan ini tidak mengklaim mereplikasi temuannya."
+        },
+        {
+          "type": "citation",
+          "text": "Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. Psychological Bulletin, 132(3), 354-380.",
+          "source": "Psychological Bulletin",
+          "url": "https://doi.org/10.1037/0033-2909.132.3.354",
+          "accessed": "10 November 2026"
+        },
+        {
+          "type": "citation",
+          "text": "Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249-255.",
+          "source": "Psychological Science",
+          "url": "https://doi.org/10.1111/j.1467-9280.2006.01693.x",
+          "accessed": "10 November 2026"
+        },
+        {
+          "type": "citation",
+          "text": "Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students’ learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4-58.",
+          "source": "Psychological Science in the Public Interest",
+          "url": "https://doi.org/10.1177/1529100612453266",
+          "accessed": "10 November 2026"
+        }
+      ]
+    }
+  ]
+}

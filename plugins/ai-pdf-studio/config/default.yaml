@@ -1,0 +1,21 @@
+# AI PDF Studio Ultimate defaults.
+output_root: "outputs"
+preview_dpi: 110
+target_score: 90
+max_repair_iterations: 3
+max_pages: 80
+rendering:
+  timeout_ms: 120000
+  print_background: true
+  chromium_executable: null
+quality:
+  minimum_body_contrast: 4.5
+  minimum_body_font_pt: 8.5
+  maximum_ink_ratio: 0.42
+  minimum_body_margin_pt: 30
+  visual_review_required_for_approval: false
+security:
+  allow_remote_assets: false
+  max_asset_bytes: 8388608
+  max_document_bytes: 6000000
+  allow_overwrite: true

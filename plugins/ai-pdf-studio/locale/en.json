@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "title": "AI PDF Studio Ultimate",
+    "description": "Generate, inspect, redesign, and repair professional PDFs with adaptive design, reference-guided styling, and visual quality review."
+  },
+  "tools": {
+    "generate_pdf": "Generate a designed, inspected PDF",
+    "preview_pdf": "Render PDF page previews",
+    "inspect_pdf": "Inspect PDF validity and geometry",
+    "edit_pdf": "Edit PDF structure and overlays",
+    "redesign_pdf": "Reconstruct and redesign a PDF",
+    "list_templates": "List category templates",
+    "analyze_design_reference": "Analyze a design reference",
+    "apply_brand_kit": "Apply a brand kit",
+    "validate_document": "Validate a Document IR",
+    "export_pdf": "Export a finished PDF"
+  }
+}

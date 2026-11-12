@@ -1,0 +1,62 @@
+{
+  "template_id": "educational-ebook",
+  "name": "E-book pembelajaran",
+  "version": "1.0.0",
+  "category": "ebook",
+  "theme": "minimalist_clean",
+  "page_size": "A5",
+  "cover_kind": "minimal",
+  "default_audience": "Pembelajar yang penasaran dan peserta kursus",
+  "default_purpose": "Bawa pembaca memahami satu gagasan inti lewat penjelasan pendek dan latihan",
+  "default_proposal": "",
+  "description": "Buku belajar A5 yang tenang dan mudah dibaca, dengan pembuka bab, penjelasan singkat, latihan, diagram konsep, dan glosarium.",
+  "structural_signature": "Pembuka bab -> konsep -> contoh -> latihan -> rangkuman",
+  "required_blocks": [
+    "heading",
+    "paragraph",
+    "list",
+    "callout"
+  ],
+  "recommended_blocks": [
+    "diagram",
+    "quote",
+    "table"
+  ],
+  "section_plan": [
+    {
+      "title": "Cara memakai buku ini",
+      "purpose": "Tetapkan harapan dan irama membaca",
+      "blocks": [
+        "paragraph",
+        "list"
+      ]
+    },
+    {
+      "title": "Bab 1: Gagasan inti",
+      "purpose": "Perkenalkan satu model mental",
+      "blocks": [
+        "paragraph",
+        "diagram",
+        "callout"
+      ]
+    },
+    {
+      "title": "Bab 2: Latihan",
+      "purpose": "Ubah gagasan menjadi latihan yang bisa diulang",
+      "blocks": [
+        "list",
+        "callout",
+        "quote"
+      ]
+    },
+    {
+      "title": "Rangkuman dan glosarium",
+      "purpose": "Rapikan istilah",
+      "blocks": [
+        "table",
+        "paragraph"
+      ]
+    }
+  ],
+  "preview": "templates/previews/educational-ebook.png"
+}

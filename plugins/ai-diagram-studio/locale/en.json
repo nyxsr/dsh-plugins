@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "title": "AI Diagram Studio",
+    "description": "Generate and revise ERD, flowchart, UML, sequence, and software architecture diagrams from natural language, then export verified SVG, PNG, and PDF files."
+  },
+  "tools": {
+    "generate_diagram": "Generate a validated diagram",
+    "revise_diagram": "Revise an existing diagram",
+    "validate_diagram": "Validate a diagram model",
+    "export_diagram": "Export or re-export artifacts",
+    "list_supported_diagrams": "List supported diagram types"
+  }
+}

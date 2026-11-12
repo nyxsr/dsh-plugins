@@ -1,0 +1,58 @@
+{
+  "template_id": "product-marketing-brochure",
+  "name": "Brosur pemasaran produk",
+  "version": "1.0.0",
+  "category": "brochure",
+  "theme": "luxury_elegant",
+  "page_size": "A4",
+  "cover_kind": "luxury",
+  "default_audience": "Calon pelanggan premium",
+  "default_purpose": "Tumbuhkan keinginan, jelaskan nilai produk, dan buat langkah berikutnya terasa mudah",
+  "description": "Brosur mewah yang ditahan, dengan sampul simetris, ilustrasi produk satu halaman, tiga cerita produk, detail asal-usul, dan strip kontak.",
+  "structural_signature": "Keinginan -> dunia produk -> tiga manfaat -> asal-usul -> undangan",
+  "required_blocks": [
+    "image",
+    "paragraph",
+    "callout"
+  ],
+  "recommended_blocks": [
+    "quote",
+    "kpi",
+    "table"
+  ],
+  "section_plan": [
+    {
+      "title": "Objeknya",
+      "purpose": "Perkenalkan produk sebagai benda yang dikerjakan dengan cermat",
+      "blocks": [
+        "image",
+        "paragraph"
+      ]
+    },
+    {
+      "title": "Kenapa penting",
+      "purpose": "Terjemahkan fitur menjadi manfaat yang terasa",
+      "blocks": [
+        "list",
+        "quote"
+      ]
+    },
+    {
+      "title": "Asal-usul",
+      "purpose": "Bangun kredibilitas lewat proses",
+      "blocks": [
+        "paragraph",
+        "timeline"
+      ]
+    },
+    {
+      "title": "Undangan",
+      "purpose": "Tutup dengan ajakan kontak yang jelas",
+      "blocks": [
+        "callout",
+        "table"
+      ]
+    }
+  ],
+  "preview": "templates/previews/product-marketing-brochure.png"
+}

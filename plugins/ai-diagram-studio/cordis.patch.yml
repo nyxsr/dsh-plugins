@@ -1,0 +1,4 @@
+- insert:
+    - id: ai-diagram-studio
+      name: '@local/ai-diagram-studio'
+      config: {}

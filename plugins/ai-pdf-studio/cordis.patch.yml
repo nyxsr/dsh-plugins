@@ -1,0 +1,4 @@
+- insert:
+    - id: ai-pdf-studio
+      name: '@local/ai-pdf-studio'
+      config: {}

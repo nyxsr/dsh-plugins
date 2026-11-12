@@ -1,0 +1,67 @@
+{
+  "template_id": "investor-presentation",
+  "name": "Presentasi investor",
+  "version": "1.0.0",
+  "category": "presentation",
+  "theme": "creative_bold",
+  "page_size": "Presentation16x9",
+  "cover_kind": "poster",
+  "default_audience": "Investor institusi dan mitra strategis",
+  "default_purpose": "Bangun tesis investasi yang mudah diingat, lengkap dengan bukti dan permintaan yang jelas",
+  "description": "Dek slide 16:9 berkontras tinggi dengan satu gagasan per slide, angka seukuran poster, peta pasar, grafik traksi, unit economics, tim, dan permintaan.",
+  "structural_signature": "Satu klaim per slide -> visual bukti -> implikasi -> slide berikutnya",
+  "required_blocks": [
+    "kpi",
+    "chart",
+    "table",
+    "callout"
+  ],
+  "recommended_blocks": [
+    "quote",
+    "diagram",
+    "timeline"
+  ],
+  "section_plan": [
+    {
+      "title": "Tesis",
+      "purpose": "Satu kalimat yang bisa diulang seisi ruangan",
+      "blocks": [
+        "paragraph",
+        "kpi"
+      ]
+    },
+    {
+      "title": "Masalah",
+      "purpose": "Buat rasa sakitnya spesifik dan mahal",
+      "blocks": [
+        "paragraph",
+        "quote"
+      ]
+    },
+    {
+      "title": "Pasar",
+      "purpose": "Ukur peluang dengan data yang diberikan",
+      "blocks": [
+        "chart",
+        "kpi"
+      ]
+    },
+    {
+      "title": "Traksi",
+      "purpose": "Tunjukkan momentum dan retensi",
+      "blocks": [
+        "chart",
+        "table"
+      ]
+    },
+    {
+      "title": "Permintaan",
+      "purpose": "Nyatakan penggunaan dana dan tonggak capaian",
+      "blocks": [
+        "callout",
+        "timeline"
+      ]
+    }
+  ],
+  "preview": "templates/previews/investor-presentation.png"
+}

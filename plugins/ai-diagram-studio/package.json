@@ -1,0 +1,42 @@
+{
+  "name": "@local/ai-diagram-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AI Diagram Studio: natural-language ERD, flowchart, UML, sequence, and architecture diagrams with validated SVG, PNG, and PDF export.",
+  "exports": {
+    ".": "./index.js",
+    "./cli": "./src/cli.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "bin": {
+    "ai-diagram-studio": "./src/cli.js"
+  },
+  "files": [
+    "index.js",
+    "src/**/*.js",
+    "locale/*.json",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "docs/**/*.md",
+    "examples/**/*",
+    "tests/**/*",
+    "outputs/**/*",
+    "scripts/**/*"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "smoke": "node scripts/smoke.js",
+    "build:samples": "node scripts/build-samples.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

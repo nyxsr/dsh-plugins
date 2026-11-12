@@ -1,0 +1,486 @@
+{
+  "document_id": "demo-business-performance-report",
+  "title": "Tinjauan Operasi Kuartal III 2026",
+  "subtitle": "Kisah kinerja sintetis untuk Northstar Analytics: pertumbuhan, efisiensi, dan keputusan yang menanti",
+  "eyebrow": "Paket dewan · Kuartal III 2026",
+  "category": "report",
+  "language": "id",
+  "audience": "Dewan dan jajaran eksekutif",
+  "purpose": "Menjelaskan kinerja kuartal, memisahkan sinyal dari kebisingan, lalu menyepakati tiga keputusan operasi",
+  "tone": "Tenang, berbasis bukti, langsung",
+  "content_mode": "preserve",
+  "synthetic": true,
+  "page": {
+    "size": "A4"
+  },
+  "theme": {
+    "family": "modern_corporate"
+  },
+  "brand": {
+    "organization": "Northstar Analytics",
+    "logo_path": "assets/brand/northstar.svg",
+    "colors": {
+      "primary": "#0B6E6E",
+      "accent": "#D98E2B"
+    },
+    "website": "northstar.example (fiktif)"
+  },
+  "metadata": {
+    "author": "Kantor Strategi Northstar (fiktif)",
+    "organization": "Northstar Analytics",
+    "created_at": "2026-11-10T08:00:00Z",
+    "keywords": [
+      "tinjauan operasi",
+      "sintetis",
+      "kinerja"
+    ],
+    "date": "2026-11-10T08:00:00Z"
+  },
+  "cover": {
+    "stats": [
+      {
+        "value": "$27.3M",
+        "label": "Pendapatan kuartal"
+      },
+      {
+        "value": "18.4%",
+        "label": "Pertumbuhan tahunan"
+      },
+      {
+        "value": "23.1%",
+        "label": "Margin operasi"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Ringkasan eksekutif",
+      "kicker": "01 · Satu halaman untuk kuartal ini",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Northstar Analytics menutup kuartal ketiga 2026 dengan pendapatan $27.3 juta, 6.6% di atas rencana dan 18.4% lebih tinggi dari kuartal yang sama tahun lalu. Pertumbuhan datang dari perluasan akun enterprise, siklus penjualan mid-market yang lebih pendek, dan konversi yang membaik di kanal mitra. Margin kotor selesai di 69.2%. Margin operasi menyentuh 23.1%. Semua angka, organisasi, dan kutipan di dokumen ini sintetis. Laporan ini dibuat untuk menunjukkan alur produksi editorial dan visual secara utuh.",
+          "lead": true,
+          "dropcap": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Kuartal ini sehat, tetapi tidak sehat merata. Perluasan akun enterprise menopang hasil, sementara akuisisi pelanggan baru di mid-market masih di bawah rencana operasi. Selisih itu penting karena perusahaan sedang sengaja menggeser belanja ke kanal yang bisa diulang. Jawaban yang tepat bukan merayakan angka utama sambil membiarkan bauran pendapatan tanpa pemeriksaan. Yang perlu dilakukan justru tiga hal: jaga basis perpanjangan, biayai sisi yang paling kuat, dan persempit jarak antara indikator awal dan keputusan."
+        },
+        {
+          "type": "kpi",
+          "items": [
+            {
+              "label": "Pendapatan",
+              "value": "$27.3",
+              "unit": "M",
+              "delta": "+6.6% vs rencana",
+              "tone": "positive",
+              "note": "Angka sintetis"
+            },
+            {
+              "label": "Margin kotor",
+              "value": "69.2",
+              "unit": "%",
+              "delta": "+1.2 poin",
+              "tone": "positive",
+              "note": "Angka sintetis"
+            },
+            {
+              "label": "Margin operasi",
+              "value": "23.1",
+              "unit": "%",
+              "delta": "+1.8 poin",
+              "tone": "positive",
+              "note": "Angka sintetis"
+            },
+            {
+              "label": "Retensi pendapatan bersih",
+              "value": "112",
+              "unit": "%",
+              "delta": "+4 poin",
+              "tone": "positive",
+              "note": "Angka sintetis"
+            }
+          ],
+          "title": ""
+        },
+        {
+          "type": "callout",
+          "title": "Cara membaca laporan ini",
+          "text": "Cerita di sini memisahkan hasil, pemicu, dan keputusan. Angka tanpa keputusan hanya konteks. Keputusan tanpa pemilik dan tanggal hanya keinginan. Semua data sintetis dan tidak boleh dianggap sebagai klaim tentang perusahaan nyata mana pun.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "title": "Kinerja terhadap rencana",
+      "kicker": "02 · Hasil dan arah",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pendapatan naik terus sepanjang tahun, tetapi bentuk kurvanya lebih memberi pelajaran daripada angka akhirnya. Kuartal kedua terbantu dua perluasan enterprise yang besar. Kuartal ketiga terbantu oleh perluasan yang lebih banyak tetapi lebih kecil, ditambah konversi yang membaik sedikit. Pola ini lebih sehat karena mengurangi ketergantungan pada beberapa akun saja, walau selisih di atas rencana sedikit lebih kecil dari kuartal sebelumnya."
+        },
+        {
+          "type": "chart",
+          "chart_type": "line",
+          "title": "Pendapatan kuartalan dibandingkan rencana",
+          "data": {
+            "categories": [
+              "Q2 25",
+              "Q3 25",
+              "Q4 25",
+              "Q1 26",
+              "Q2 26",
+              "Q3 26"
+            ],
+            "series": [
+              {
+                "name": "Pendapatan aktual",
+                "values": [
+                  20.1,
+                  21.4,
+                  22.4,
+                  23.1,
+                  25.2,
+                  27.3
+                ]
+              },
+              {
+                "name": "Rencana operasi",
+                "values": [
+                  20.8,
+                  21.2,
+                  22.5,
+                  23.4,
+                  24.8,
+                  25.6
+                ]
+              }
+            ]
+          },
+          "caption": "Data demonstrasi sintetis. Dalam juta USD.",
+          "options": {}
+        },
+        {
+          "type": "paragraph",
+          "text": "Garis rencana direvisi dua kali selama periode ini. Revisi terakhir menyusul perpanjangan enterprise di kuartal kedua. Terhadap rencana yang berlaku sekarang, kelebihan di kuartal ketiga terkonsentrasi di pendapatan perluasan dan layanan tambahan. Pendapatan dari pelanggan baru 3.1% di bawah rencana. Bedanya penting. Perluasan adalah sinyal kualitas. Lemahnya pelanggan baru adalah indikator awal risiko cakupan di masa depan."
+        },
+        {
+          "type": "kpi",
+          "items": [
+            {
+              "label": "Pencapaian rencana",
+              "value": "106.6",
+              "unit": "%",
+              "delta": "+6.6 poin",
+              "tone": "positive"
+            },
+            {
+              "label": "Pendapatan perluasan",
+              "value": "$8.9",
+              "unit": "M",
+              "delta": "+14.2% QoQ",
+              "tone": "positive"
+            },
+            {
+              "label": "Pendapatan baru",
+              "value": "$4.4",
+              "unit": "M",
+              "delta": "-3.1% vs rencana",
+              "tone": "negative"
+            }
+          ],
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Bauran pendapatan",
+      "kicker": "03 · Dari mana pertumbuhan datang",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Segmen enterprise sekarang menyumbang 30% pendapatan, naik dari 26% setahun lalu. Perpanjangan inti masih jadi kumpulan terbesar, tetapi porsinya turun perlahan seiring perusahaan menambah akun besar dan layanan bernilai lebih tinggi. Pasar baru menyumbang 16% dan tumbuh paling cepat dalam persentase, dari basis yang kecil. Kombinasi itu bagus hanya kalau biaya melayani segmen baru tidak menghapus keunggulan margin yang sudah ada."
+        },
+        {
+          "type": "chart",
+          "chart_type": "bar",
+          "title": "Kontribusi pendapatan menurut segmen",
+          "data": {
+            "categories": [
+              "Inti",
+              "Enterprise",
+              "Pasar baru",
+              "Layanan"
+            ],
+            "series": [
+              {
+                "name": "Pendapatan",
+                "values": [
+                  11.5,
+                  8.2,
+                  4.4,
+                  3.2
+                ]
+              }
+            ]
+          },
+          "caption": "Data demonstrasi sintetis. Dalam juta USD.",
+          "options": {}
+        },
+        {
+          "type": "table",
+          "title": "Pendapatan dan selisih rencana menurut segmen",
+          "columns": [
+            {
+              "key": "segment",
+              "label": "Segmen",
+              "width": 22
+            },
+            {
+              "key": "revenue",
+              "label": "Pendapatan Q3 ($M)",
+              "align": "right",
+              "width": 18
+            },
+            {
+              "key": "growth",
+              "label": "Pertumbuhan YoY",
+              "align": "right",
+              "width": 16
+            },
+            {
+              "key": "share",
+              "label": "Porsi",
+              "align": "right",
+              "width": 12
+            },
+            {
+              "key": "variance",
+              "label": "vs rencana",
+              "align": "right",
+              "width": 16
+            }
+          ],
+          "rows": [
+            {
+              "segment": "Inti",
+              "revenue": "11.5",
+              "growth": "+11.2%",
+              "share": "42%",
+              "variance": "+4.1%"
+            },
+            {
+              "segment": "Enterprise",
+              "revenue": "8.2",
+              "growth": "+28.6%",
+              "share": "30%",
+              "variance": "+12.4%"
+            },
+            {
+              "segment": "Pasar baru",
+              "revenue": "4.4",
+              "growth": "+31.0%",
+              "share": "16%",
+              "variance": "-3.1%"
+            },
+            {
+              "segment": "Layanan",
+              "revenue": "3.2",
+              "growth": "+9.4%",
+              "share": "12%",
+              "variance": "+8.7%"
+            }
+          ],
+          "caption": "Data demonstrasi sintetis. Persentase hanya ilustrasi."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kelebihan di segmen enterprise memang nyata di dalam simulasi, tetapi juga terkonsentrasi. Tiga akun menyumbang 61% dari kenaikan segmen. Dewan perlu bertanya apakah konsentrasi itu pijakan yang disengaja atau ketergantungan yang kebetulan. Saran kami, perlakukan sebagai pijakan untuk dua kuartal ke depan, lalu tetapkan batas konsentrasi sebelum siklus perencanaan berikutnya."
+        }
+      ]
+    },
+    {
+      "title": "Efisiensi operasi",
+      "kicker": "04 · Biaya, bukan hanya pertumbuhan",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Beban operasi naik 11.9% dibanding tahun lalu, lebih lambat dari pendapatan. Selisih itulah sumber perbaikan margin operasi. Penjualan dan pemasaran tetap jadi pos biaya terbesar, disusul riset dan pengembangan. Biaya umum dan administrasi praktis datar secara absolut, dan itu wajar pada skala sekarang. Jadi cerita efisiensi di sini bukan cerita memotong biaya. Ini soal mengurutkan investasi mengikuti permintaan."
+        },
+        {
+          "type": "table",
+          "title": "Jembatan biaya operasi",
+          "columns": [
+            {
+              "key": "line",
+              "label": "Pos biaya",
+              "width": 34
+            },
+            {
+              "key": "actual",
+              "label": "Aktual Q3 ($M)",
+              "align": "right",
+              "width": 18
+            },
+            {
+              "key": "revenue",
+              "label": "% dari pendapatan",
+              "align": "right",
+              "width": 16
+            },
+            {
+              "key": "plan",
+              "label": "Rencana ($M)",
+              "align": "right",
+              "width": 14
+            },
+            {
+              "key": "variance",
+              "label": "Selisih",
+              "align": "right",
+              "width": 14
+            }
+          ],
+          "rows": [
+            {
+              "line": "Penjualan dan pemasaran",
+              "actual": "5.8",
+              "revenue": "21.2%",
+              "plan": "5.6",
+              "variance": "+3.6%"
+            },
+            {
+              "line": "Riset dan pengembangan",
+              "actual": "4.1",
+              "revenue": "15.0%",
+              "plan": "4.0",
+              "variance": "+2.5%"
+            },
+            {
+              "line": "Keberhasilan pelanggan",
+              "actual": "1.8",
+              "revenue": "6.6%",
+              "plan": "1.9",
+              "variance": "-5.3%"
+            },
+            {
+              "line": "Umum dan administrasi",
+              "actual": "1.4",
+              "revenue": "5.1%",
+              "plan": "1.4",
+              "variance": "0.0%"
+            },
+            {
+              "line": "Total beban operasi",
+              "actual": "13.1",
+              "revenue": "48.0%",
+              "plan": "12.9",
+              "variance": "+1.6%"
+            }
+          ],
+          "caption": "Data demonstrasi sintetis."
+        },
+        {
+          "type": "callout",
+          "title": "Efisiensi bukan berarti menahan diri",
+          "text": "Perusahaan tidak berusaha membelanjakan lebih sedikit secara absolut. Yang dikejar adalah memperpendek jeda antara sinyal permintaan yang terbukti dan kapasitas untuk melayaninya. Pos biaya boleh tumbuh lebih lambat dari pendapatan asalkan kualitas layanan tidak menurun.",
+          "tone": "success"
+        },
+        {
+          "type": "paragraph",
+          "text": "Risiko dua kuartal ke depan bukan permintaan yang kurang, melainkan kapasitas implementasi enterprise yang jadi penghambat. Pendapatan layanan tumbuh 9.4%, tetapi utilisasi tim implementasi berakhir di 87%, di atas rentang yang nyaman. Kalau pipeline enterprise terkonversi sesuai rencana, perusahaan perlu menambah kapasitas implementasi sebelum menambah program pencarian permintaan lagi."
+        }
+      ]
+    },
+    {
+      "title": "Sinyal pelanggan",
+      "kicker": "05 · Retensi dan kepercayaan",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "Kami tidak butuh dashboard lain. Kami butuh tiga angka yang sama punya arti yang sama di setiap percakapan.",
+          "attribution": "Wawancara pelanggan sintetis",
+          "role": "Pemimpin operasi, akun enterprise (fiktif)"
+        },
+        {
+          "type": "kpi",
+          "items": [
+            {
+              "label": "Retensi pendapatan bersih",
+              "value": "112",
+              "unit": "%",
+              "delta": "+4 poin YoY",
+              "tone": "positive"
+            },
+            {
+              "label": "Churn akun",
+              "value": "4.1",
+              "unit": "%",
+              "delta": "-0.6 poin YoY",
+              "tone": "positive"
+            },
+            {
+              "label": "NPS hubungan",
+              "value": "48",
+              "delta": "+5 poin",
+              "tone": "positive",
+              "note": "Survei sintetis"
+            }
+          ],
+          "title": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "Retensi membaik, tetapi sinyal kualitatifnya lebih campur. Pelanggan menghargai keandalan produk dan kedalaman tim akun. Mereka kurang puas dengan banyaknya tempat yang harus dibuka untuk menjawab satu pertanyaan sederhana. Masalahnya bukan kekurangan fitur. Masalahnya koherensi. Pelanggan semestinya bisa berpindah dari sinyal kinerja ke catatan di baliknya tanpa mengganti istilah, format ekspor, atau pemilik."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dari situ muncul prioritas praktis untuk kuartal depan, yaitu mengurangi jumlah definisi “akun sehat” yang saling bersaing. Tim komersial memakai probabilitas perpanjangan. Tim produk memakai kursi aktif mingguan. Tim keberhasilan pelanggan memakai skor gabungan. Masing-masing masuk akal kalau berdiri sendiri. Bersama-sama, ketiganya menimbulkan gesekan tepat saat pelanggan butuh jawaban yang jelas."
+        }
+      ]
+    },
+    {
+      "title": "Keputusan dan langkah berikutnya",
+      "kicker": "06 · Apa yang berubah sekarang",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kuartal ini tidak membutuhkan strategi baru. Yang dibutuhkan tiga keputusan yang membuat strategi yang ada lebih mudah dijalankan. Setiap keputusan punya pemilik, titik pemeriksaan bertanggal, dan uji terukur untuk melihat apakah keputusan itu berhasil. Dewan diminta menyetujui keputusannya, bukan mengulang perdebatan diagnosis."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "date": "Paling lambat 15 Desember",
+              "title": "Lindungi basis perpanjangan inti",
+              "text": "Pindahkan 40 perpanjangan teratas ke satu rencana akun dengan satu definisi kesehatan dan satu sponsor eksekutif. Pemilik: Chief Customer Officer."
+            },
+            {
+              "date": "Paling lambat 31 Januari",
+              "title": "Biayai sisi terkuat dengan sengaja",
+              "text": "Geser 8% belanja pemasaran diskresioner dari akuisisi luas ke perluasan enterprise lewat mitra. Pemilik: Chief Revenue Officer."
+            },
+            {
+              "date": "Mulai Februari",
+              "title": "Rapatkan ritme operasi",
+              "text": "Ganti tinjauan metrik bulanan dengan tinjauan keputusan dua mingguan yang berfokus pada indikator awal dan dependensi yang masih terbuka. Pemilik: Chief Operating Officer."
+            }
+          ],
+          "title": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "Keputusannya sengaja sempit. Program yang terlalu luas cenderung menghasilkan aktivitas tanpa uji yang jelas. Kalau kelompok perpanjangan membaik dan pipeline dari mitra tumbuh tanpa penurunan margin kotor, model operasinya bekerja. Kalau tidak, perusahaan sudah punya bukti cukup awal untuk berbelok sebelum siklus perencanaan berikutnya dimulai."
+        },
+        {
+          "type": "callout",
+          "title": "Keputusan yang diminta",
+          "text": "Setujui tiga langkah tadi beserta batasnya: kualitas implementasi tidak turun, kedalaman diskon tidak bertambah, dan tidak ada belanja akuisisi pelanggan baru sampai pilot mitra punya biaya terukur per peluang yang lolos kualifikasi.",
+          "tone": "accent"
+        }
+      ]
+    }
+  ]
+}

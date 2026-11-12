@@ -1,0 +1,8 @@
+packages:
+  - .
+
+nodeLinker: hoisted
+autoInstallPeers: false
+allowBuilds:
+  "@google/genai@1.52.0": true
+  protobufjs@7.6.6: true

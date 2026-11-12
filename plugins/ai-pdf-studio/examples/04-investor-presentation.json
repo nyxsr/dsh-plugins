@@ -1,0 +1,343 @@
+{
+  "document_id": "demo-investor-presentation",
+  "title": "Vela: Infrastruktur Energi untuk Kota yang Bergerak",
+  "subtitle": "Ringkasan investasi Seri A · demonstrasi sintetis",
+  "eyebrow": "Paparan investor · 2027",
+  "category": "presentation",
+  "language": "id",
+  "audience": "Investor institusional dan mitra strategis",
+  "purpose": "Menyampaikan tesis investasi, bukti traksi sintetis, dan permintaan pendanaan dalam delapan slide",
+  "tone": "Percaya diri, ringkas, berbasis bukti",
+  "content_mode": "preserve",
+  "synthetic": true,
+  "page": {
+    "size": "Presentation16x9"
+  },
+  "theme": {
+    "family": "creative_bold"
+  },
+  "brand": {
+    "organization": "Vela Systems",
+    "logo_path": "assets/brand/vela.svg",
+    "colors": {
+      "primary": "#D8FF3E",
+      "accent": "#2B4CFF"
+    },
+    "website": "vela.example (fiktif)"
+  },
+  "metadata": {
+    "author": "Vela Systems (fiktif)",
+    "organization": "Vela Systems",
+    "created_at": "2026-11-10T08:00:00Z",
+    "keywords": [
+      "paparan investor",
+      "energi",
+      "sintetis"
+    ],
+    "date": "2026-11-10T08:00:00Z"
+  },
+  "cover": {
+    "stats": [
+      {
+        "value": "42",
+        "label": "Situs aktif"
+      },
+      {
+        "value": "99,98%",
+        "label": "Ketersediaan"
+      },
+      {
+        "value": "Rp 45 M",
+        "label": "Putaran Seri A"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Tesis",
+      "kicker": "01 · Satu kalimat",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kota tidak kekurangan energi. Kota kekurangan cara untuk memindahkan, menyimpan, dan menjual energi pada waktu yang tepat. Vela membangun lapisan perangkat lunak dan operasi yang membuat aset energi terdistribusi bisa dipercaya oleh jaringan, pemilik gedung, dan penyedia kendaraan listrik dalam satu sistem. Bukan tiga sistem terpisah yang ditempel menjadi satu.",
+          "lead": true
+        },
+        {
+          "type": "kpi",
+          "items": [
+            {
+              "label": "Situs aktif",
+              "value": "42",
+              "delta": "+11 kuartal ini",
+              "tone": "positive",
+              "note": "Data sintetis"
+            },
+            {
+              "label": "Ketersediaan",
+              "value": "99,98",
+              "unit": "%",
+              "delta": "target 99,95%",
+              "tone": "positive",
+              "note": "Data sintetis"
+            },
+            {
+              "label": "Pendapatan berulang",
+              "value": "Rp 8,5",
+              "unit": "M",
+              "delta": "+34% QoQ",
+              "tone": "positive",
+              "note": "Data sintetis"
+            }
+          ],
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Masalah",
+      "kicker": "02 · Biaya koordinasi",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pemilik aset melihat potensi pendapatan. Operator jaringan melihat risiko. Penyedia layanan melihat kompleksitas integrasi. Tidak ada pihak yang punya gambaran waktu-nyata yang sama. Akibatnya kapasitas idle dibiarkan, permintaan puncak ditangani dengan pembangkitan mahal, dan investasi baru tertunda karena imbal hasilnya belum pasti."
+        },
+        {
+          "type": "quote",
+          "text": "Setiap kilowatt yang tidak terjadwal adalah biaya yang dibayar oleh seseorang di jaringan.",
+          "attribution": "Sintesis wawancara operator",
+          "role": "Demo sintetis, bukan kutipan nyata"
+        }
+      ]
+    },
+    {
+      "title": "Pasar",
+      "kicker": "03 · Di mana nilai terkonsentrasi",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Peluang awal kami terkonsentrasi di tiga segmen: gedung komersial dengan beban puncak tinggi, depot kendaraan listrik, dan kampus industri dengan pembangkit di lokasi. Dalam simulasi ini, ketiganya menyumbang 78% dari nilai pipeline. Angka itu hanya ilustrasi, bukan riset pasar independen. Kami juga tidak memakai ukuran pasar dari laporan pihak ketiga, karena tidak ada yang bisa kami verifikasi."
+        },
+        {
+          "type": "chart",
+          "chart_type": "bar",
+          "title": "Kontribusi segmen terhadap pipeline",
+          "data": {
+            "categories": [
+              "Gedung komersial",
+              "Depot EV",
+              "Kampus industri",
+              "Lainnya"
+            ],
+            "series": [
+              {
+                "name": "Pipeline",
+                "values": [
+                  38,
+                  24,
+                  16,
+                  22
+                ]
+              }
+            ]
+          },
+          "caption": "Ilustrasi sintetis. Persentase tidak mewakili pasar nyata.",
+          "options": {}
+        }
+      ]
+    },
+    {
+      "title": "Produk",
+      "kicker": "04 · Satu lapisan kendali",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Vela menghubungkan data aset, prakiraan beban, dan aturan pasar ke dalam satu lapisan kendali. Operator bisa melihat kapasitas yang tersedia, menjalankan simulasi skenario, dan mengirim perintah ke aset dengan jejak audit yang jelas. Integrasi dimulai dari satu situs, lalu diperluas tanpa mengganti perangkat keras yang sudah terpasang. Tim lapangan tetap memegang kendali. Perangkat lunaknya menyimpan catatan siapa mengirim perintah apa dan kapan."
+        },
+        {
+          "type": "diagram",
+          "diagram_type": "flow",
+          "title": "Alur operasi Vela",
+          "nodes": [
+            {
+              "id": "connect",
+              "label": "Hubungkan aset",
+              "detail": "Adaptor untuk inverter, meter, dan BMS."
+            },
+            {
+              "id": "forecast",
+              "label": "Prakirakan",
+              "detail": "Beban, harga, dan kapasitas dalam satu model."
+            },
+            {
+              "id": "dispatch",
+              "label": "Kirim perintah",
+              "detail": "Aturan pasar dan batas operasi yang bisa diaudit."
+            },
+            {
+              "id": "learn",
+              "label": "Perbaiki",
+              "detail": "Hasil aktual memperbarui prakiraan berikutnya."
+            }
+          ],
+          "caption": "Ilustrasi arsitektur sintetis."
+        }
+      ]
+    },
+    {
+      "title": "Traksi",
+      "kicker": "05 · Bukti awal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dalam simulasi 18 bulan, jumlah situs aktif tumbuh dari 9 menjadi 42, sementara pendapatan berulang per situs naik 21%. Pertumbuhan itu belum membuktikan keunggulan kompetitif. Ia hanya menunjukkan bahwa model komersialnya bisa diulang pada segmen awal, dan bahwa biaya integrasi menurun seiring volume. Kami belum bisa memisahkan efek kepadatan wilayah dari efek harga, dan itu pekerjaan analisis berikutnya."
+        },
+        {
+          "type": "chart",
+          "chart_type": "line",
+          "title": "Situs aktif dan pendapatan berulang",
+          "data": {
+            "categories": [
+              "Q1 25",
+              "Q2 25",
+              "Q3 25",
+              "Q4 25",
+              "Q1 26",
+              "Q2 26"
+            ],
+            "series": [
+              {
+                "name": "Situs aktif",
+                "values": [
+                  9,
+                  13,
+                  18,
+                  24,
+                  33,
+                  42
+                ]
+              },
+              {
+                "name": "Pendapatan berulang (Rp 100 jt)",
+                "values": [
+                  21,
+                  30,
+                  42,
+                  55,
+                  68,
+                  85
+                ]
+              }
+            ]
+          },
+          "caption": "Data sintetis. Dua seri memakai skala berbeda untuk menunjukkan arah, bukan nilai absolut.",
+          "options": {}
+        }
+      ]
+    },
+    {
+      "title": "Ekonomi unit",
+      "kicker": "06 · Jalur menuju margin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Biaya akuisisi dan waktu integrasi turun ketika jumlah situs dalam satu wilayah bertambah. Model ini belum mencapai skala penuh, tetapi arahnya konsisten: makin padat wilayahnya, makin rendah biaya layanan per situs. Asumsi di bawah adalah ilustrasi, bukan proyeksi yang dijamin. Angkanya berguna untuk menguji logika, bukan untuk menghitung hasil pasti."
+        },
+        {
+          "type": "kpi",
+          "items": [
+            {
+              "label": "Periode balik modal",
+              "value": "14",
+              "unit": "bln",
+              "delta": "target 11 bulan",
+              "tone": "accent",
+              "note": "Ilustrasi sintetis"
+            },
+            {
+              "label": "Margin kotor",
+              "value": "61",
+              "unit": "%",
+              "delta": "+7 poin YoY",
+              "tone": "positive",
+              "note": "Ilustrasi sintetis"
+            },
+            {
+              "label": "Biaya layanan / situs",
+              "value": "-18",
+              "unit": "%",
+              "delta": "saat kepadatan naik",
+              "tone": "positive",
+              "note": "Ilustrasi sintetis"
+            }
+          ],
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Tim",
+      "kicker": "07 · Mengapa kami",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tim inti menggabungkan operasi jaringan, perangkat lunak industri, dan penjualan infrastruktur. Kami tidak mengklaim pengalaman yang tidak kami miliki. Yang kami punya kombinasi yang jarang untuk masalah ini: orang yang pernah mengoperasikan aset, orang yang pernah membangun perangkat lunak untuk aset, dan orang yang pernah menjual ke pemilik aset."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "title": "Operasi",
+              "text": "Dua belas tahun pengalaman operasi jaringan dan pemeliharaan aset terdistribusi (fiktif)."
+            },
+            {
+              "title": "Produk",
+              "text": "Tim perangkat lunak yang pernah membangun platform integrasi industri (fiktif)."
+            },
+            {
+              "title": "Komersial",
+              "text": "Pengalaman menjual infrastruktur kepada pemilik gedung dan operator depot (fiktif)."
+            }
+          ],
+          "ordered": false
+        }
+      ]
+    },
+    {
+      "title": "Permintaan",
+      "kicker": "08 · Penggunaan dana",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kami mencari Rp 45 miliar untuk memperluas operasi di tiga wilayah, mempercepat integrasi produk, dan membangun tim layanan. Target kami adalah 90 situs aktif dan arus kas operasi positif dalam 24 bulan. Ini tujuan, bukan jaminan. Rencananya akan kami tinjau setiap kuartal dan kami sampaikan apa adanya kalau asumsinya bergeser."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "date": "0-6 bulan",
+              "title": "Perluas wilayah pertama",
+              "text": "Tambahkan 20 situs dan satu tim layanan regional."
+            },
+            {
+              "date": "6-12 bulan",
+              "title": "Perkuat produk",
+              "text": "Otomatisasi integrasi dan pelaporan kepatuhan."
+            },
+            {
+              "date": "12-24 bulan",
+              "title": "Capai skala operasi",
+              "text": "Target 90 situs dan arus kas operasi positif."
+            }
+          ],
+          "title": ""
+        },
+        {
+          "type": "callout",
+          "title": "Demonstrasi sintetis",
+          "text": "Seluruh angka, situs, dan proyeksi dalam paparan ini adalah fiksi. Paparan ini tidak menawarkan sekuritas, bukan ajakan investasi, dan tidak boleh dipakai sebagai dasar keputusan investasi nyata.",
+          "tone": "warning"
+        }
+      ]
+    }
+  ]
+}
